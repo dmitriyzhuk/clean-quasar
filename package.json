@@ -45,7 +45,9 @@
     "yarn": ">= 1.21.1"
   },
   "lint-staged": {
-    "*.{js,ts,vue}": "eslint --fix --max-warnings=0",
-    "*.{js,ts,vue,scss,html,md,json}": "prettier --write"
+    "*.{js,ts,vue,scss,html,md,json}": [
+      "yarn lint",
+      "yarn format"
+    ]
   }
 }
