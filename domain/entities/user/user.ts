@@ -7,7 +7,6 @@ export class User implements IUser {
   age = 0;
 
   constructor(data: IUserData) {
-    let a;
     Object.assign(this, data);
   }
 
