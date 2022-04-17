@@ -1,4 +1,4 @@
-import { IUser, IUserData } from './user.types';
+import { IUser, IUserData, UserRanks } from './user.types';
 
 export class User implements IUser {
   id = undefined;
