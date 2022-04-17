@@ -5,6 +5,7 @@ export class User implements IUser {
   firstname = '';
   lastname = '';
   age = 0;
+  date = '';
 
   constructor(data: IUserData) {
     Object.assign(this, data);
