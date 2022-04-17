@@ -33,6 +33,8 @@
     "vue-router": "^4.0.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^16.2.3",
+    "@commitlint/config-conventional": "^16.2.1",
     "@intlify/vite-plugin-vue-i18n": "^3.3.1",
     "@quasar/app-vite": "^1.0.0-alpha.0",
     "@quasar/quasar-app-extension-testing": "^2.0.3",
