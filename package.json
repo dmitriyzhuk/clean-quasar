@@ -45,7 +45,7 @@
     "yarn": ">= 1.21.1"
   },
   "lint-staged": {
-    "*.{js,ts,vue}": "eslint",
+    "*.{js,ts,vue}": "eslint --fix",
     "*.{js,ts,vue,scss,html,md,json}": "prettier --write"
   }
 }
