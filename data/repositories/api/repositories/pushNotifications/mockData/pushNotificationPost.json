@@ -1,0 +1,13 @@
+{
+  "isSuccess": true,
+  "data": {
+    "date": "2022-04-08T20:25:15.979Z",
+    "id": "656e47ea-080f-4f5c-d491-08da15ba482b",
+    "userGroups": ["All Internal Users"],
+    "status": "Draft",
+    "contentLocale": "cs-CZ",
+    "description": "test 2",
+    "title": "test"
+  },
+  "message": ""
+}

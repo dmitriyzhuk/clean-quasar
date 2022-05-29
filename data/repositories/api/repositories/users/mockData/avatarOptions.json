@@ -1,0 +1,545 @@
+{
+  "\"sex": "Male",
+  "options": {
+    "Female": {
+      "label": "Female",
+      "variants": {
+        "0": {
+          "component": "Accessories",
+          "prop": "type",
+          "tab": "Accessories",
+          "values": {
+            "0": {
+              "name": ["No Accessory", "No Accessory", "No Accessory"],
+              "value": ["NoAccessory", "NoAccessory", "NoAccessory"]
+            },
+            "1": {
+              "name": ["Mask", "Mask", "Mask"],
+              "value": ["Mask1", "Mask1", "Mask1"]
+            },
+            "2": {
+              "name": ["Tattoo", "Tattoo", "Tattoo"],
+              "value": ["Tattoo1", "Tattoo1", "Tattoo1"]
+            },
+            "3": {
+              "name": ["Nose Ring", "Nose Ring", "Nose Ring"],
+              "value": ["NoseRing1", "NoseRing1", "NoseRing1"]
+            },
+            "4": {
+              "name": ["Eyebrow Ring", "Eyebrow Ring", "Eyebrow Ring"],
+              "value": ["EyebrowRing1", "EyebrowRing1", "EyebrowRing1"]
+            },
+            "5": {
+              "name": ["Earrings", "Earrings", "Earrings"],
+              "value": ["Earrings1", "Earrings1", "Earrings1"]
+            }
+          }
+        },
+        "1": {
+          "component": "FemaleBody",
+          "prop": "type",
+          "tab": "Body",
+          "values": {
+            "0": {
+              "name": ["Thin Tone 1", "Thin Tone 1", "Thin Tone 1"],
+              "value": ["Female1Tone1", "Female1Tone1", "Female1Tone1"]
+            },
+            "1": {
+              "name": ["Thin Tone 2", "Thin Tone 2", "Thin Tone 2"],
+              "value": ["Female1Tone2", "Female1Tone2", "Female1Tone2"]
+            },
+            "2": {
+              "name": ["Thin Tone 3", "Thin Tone 3", "Thin Tone 3"],
+              "value": ["Female1Tone3", "Female1Tone3", "Female1Tone3"]
+            },
+            "3": {
+              "name": ["Thin Tone 4", "Thin Tone 4", "Thin Tone 4"],
+              "value": ["Female1Tone4", "Female1Tone4", "Female1Tone4"]
+            },
+            "4": {
+              "name": ["Thin Tone 5", "Thin Tone 5", "Thin Tone 5"],
+              "value": ["Female1Tone5", "Female1Tone5", "Female1Tone5"]
+            },
+            "5": {
+              "name": ["Medium Tone 1", "Medium Tone 1", "Medium Tone 1"],
+              "value": ["Female2Tone1", "Female2Tone1", "Female2Tone1"]
+            },
+            "6": {
+              "name": ["Medium Tone 2", "Medium Tone 2", "Medium Tone 2"],
+              "value": ["Female2Tone2", "Female2Tone2", "Female2Tone2"]
+            },
+            "7": {
+              "name": ["Medium Tone 3", "Medium Tone 3", "Medium Tone 3"],
+              "value": ["Female2Tone3", "Female2Tone3", "Female2Tone3"]
+            },
+            "8": {
+              "name": ["Medium Tone 4", "Medium Tone 4", "Medium Tone 4"],
+              "value": ["Female2Tone4", "Female2Tone4", "Female2Tone4"]
+            },
+            "9": {
+              "name": ["Medium Tone 5", "Medium Tone 5", "Medium Tone 5"],
+              "value": ["Female2Tone5", "Female2Tone5", "Female2Tone5"]
+            }
+          }
+        },
+        "2": {
+          "label": "Smile",
+          "component": "Mouth",
+          "prop": "type",
+          "tab": "Mouth",
+          "values": {
+            "0": {
+              "name": ["Mouth 1", "Mouth 1", "Mouth 1"],
+              "value": ["Mouth1", "Mouth1", "Mouth1"]
+            },
+            "1": {
+              "name": ["Mouth 2", "Mouth 2", "Mouth 2"],
+              "value": ["Mouth2", "Mouth2", "Mouth2"]
+            },
+            "2": {
+              "name": ["Mouth 3", "Mouth 3", "Mouth 3"],
+              "value": ["Mouth3", "Mouth3", "Mouth3"]
+            }
+          }
+        },
+        "3": {
+          "component": "Nose",
+          "prop": "type",
+          "tab": "Nose",
+          "values": {
+            "0": {
+              "name": ["Nose 1", "Nose 1", "Nose 1"],
+              "value": ["Nose5", "Nose5", "Nose5"]
+            },
+            "1": {
+              "name": ["Nose 2", "Nose 2", "Nose 2"],
+              "value": ["Nose6", "Nose6", "Nose6"]
+            },
+            "2": {
+              "name": ["Nose 3", "Nose 3", "Nose 3"],
+              "value": ["Nose7", "Nose7", "Nose7"]
+            }
+          }
+        },
+        "4": {
+          "label": "Hats",
+          "component": "Hats",
+          "prop": "type",
+          "tab": "Headwear",
+          "values": {
+            "0": {
+              "name": ["Bike Helmet", "Bike Helmet", "Bike Helmet"],
+              "value": ["BikeHelmet", "BikeHelmet", "BikeHelmet"]
+            },
+            "1": {
+              "name": ["Crown", "Crown", "Crown"],
+              "value": ["Crown", "Crown", "Crown"]
+            },
+            "2": {
+              "name": ["Hat 1", "Hat 1", "Hat 1"],
+              "value": ["Hat1", "Hat1", "Hat1"]
+            },
+            "3": {
+              "name": ["Helmet 1", "Helmet 1", "Helmet 1"],
+              "value": ["Helmet1", "Helmet1", "Helmet1"]
+            },
+            "4": {
+              "name": ["Helmet 2", "Helmet 2", "Helmet 2"],
+              "value": ["Helmet2", "Helmet2", "Helmet2"]
+            },
+            "5": {
+              "name": ["No headwear", "No headwear", "No headwear"],
+              "value": ["NoHeadwear", "NoHeadwear", "NoHeadwear"]
+            },
+            "6": {
+              "name": ["Visor", "Visor", "Visor"],
+              "value": ["Visor1", "Visor1", "Visor1"]
+            }
+          }
+        },
+        "5": {
+          "label": "Hair",
+          "component": "Hair",
+          "prop": "type",
+          "tab": "Hair",
+          "values": {
+            "0": {
+              "name": ["No Hair", "No Hair", "No Hair"],
+              "value": ["NoHair", "NoHair", "NoHair"]
+            },
+            "1": {
+              "name": ["Hair 2", "Hair 2", "Hair 2"],
+              "value": ["Hair2", "Hair2", "Hair2"]
+            },
+            "2": {
+              "name": ["Hair 3", "Hair 3", "Hair 3"],
+              "value": ["Hair3", "Hair3", "Hair3"]
+            },
+            "3": {
+              "name": ["Hair 4", "Hair 4", "Hair 4"],
+              "value": ["Hair4", "Hair4", "Hair4"]
+            }
+          }
+        },
+        "6": {
+          "label": "Hair type",
+          "component": "FemaleHair",
+          "prop": "type",
+          "tab": "Facehair"
+        },
+        "7": {
+          "label": "Eyes type",
+          "component": "Eyes",
+          "prop": "type",
+          "tab": "Eyes",
+          "values": {
+            "0": {
+              "name": ["Eyes 1", "Eyes 1", "Eyes 1"],
+              "value": ["Eyes1", "Eyes1", "Eyes1"]
+            },
+            "1": {
+              "name": ["Eyes 2", "Eyes 2", "Eyes 2"],
+              "value": ["Eyes2", "Eyes2", "Eyes2"]
+            },
+            "2": {
+              "name": ["Eyes 3", "Eyes 3", "Eyes 3"],
+              "value": ["Eyes3", "Eyes3", "Eyes3"]
+            }
+          }
+        },
+        "8": {
+          "label": "Eyewear",
+          "component": "Glasses",
+          "prop": "type",
+          "tab": "Eyewear",
+          "values": {
+            "0": {
+              "name": ["No Glasses", "No Glasses", "No Glasses"],
+              "value": ["NoGlasses", "NoGlasses", "NoGlasses"]
+            },
+            "1": {
+              "name": ["Glasses 1", "Glasses 1", "Glasses 1"],
+              "value": ["Glasses1", "Glasses1", "Glasses1"]
+            },
+            "2": {
+              "name": ["Glasses 2", "Glasses 2", "Glasses 2"],
+              "value": ["Glasses2", "Glasses2", "Glasses2"]
+            },
+            "3": {
+              "name": ["Glasses 3", "Glasses 3", "Glasses 3"],
+              "value": ["Glasses3", "Glasses3", "Glasses3"]
+            },
+            "4": {
+              "name": ["Glasses 4", "Glasses 4", "Glasses 4"],
+              "value": ["Glasses4", "Glasses4", "Glasses4"]
+            },
+            "5": {
+              "name": ["Sunglasses", "Sunglasses", "Sunglasses"],
+              "value": ["Sunglasses", "Sunglasses", "Sunglasses"]
+            }
+          }
+        }
+      },
+      "Accessories": {
+        "type": {
+          "0": "NoseRing1",
+          "1": "Tattoo1"
+        }
+      },
+      "Eyes": {
+        "type": "Eyes3"
+      },
+      "FemaleBody": {
+        "type": "Female2Tone1"
+      },
+      "FemaleGlasses": {
+        "type": "NoGlasses"
+      },
+      "Hair": {
+        "type": "Hair3"
+      },
+      "Hats": {
+        "type": "Helmet1"
+      },
+      "Mouth": {
+        "type": "Mouth2"
+      },
+      "Nose": {
+        "type": "Nose5"
+      }
+    },
+    "Male": {
+      "label": "Male",
+      "variants": {
+        "0": {
+          "component": "Accessories",
+          "prop": "type",
+          "tab": "Accessories",
+          "values": {
+            "0": {
+              "name": ["No Accessory", "No Accessory", "No Accessory"],
+              "value": ["NoAccessory", "NoAccessory", "NoAccessory"]
+            },
+            "1": {
+              "name": ["Mask", "Mask", "Mask"],
+              "value": ["Mask1", "Mask1", "Mask1"]
+            },
+            "2": {
+              "name": ["Tattoo", "Tattoo", "Tattoo"],
+              "value": ["Tattoo1", "Tattoo1", "Tattoo1"]
+            },
+            "3": {
+              "name": ["Nose Ring", "Nose Ring", "Nose Ring"],
+              "value": ["NoseRing1", "NoseRing1", "NoseRing1"]
+            },
+            "4": {
+              "name": ["Eyebrow Ring", "Eyebrow Ring", "Eyebrow Ring"],
+              "value": ["EyebrowRing1", "EyebrowRing1", "EyebrowRing1"]
+            },
+            "5": {
+              "name": ["Earrings", "Earrings", "Earrings"],
+              "value": ["Earrings1", "Earrings1", "Earrings1"]
+            }
+          }
+        },
+        "1": {
+          "component": "MaleBody",
+          "prop": "type",
+          "tab": "Body",
+          "values": {
+            "0": {
+              "name": ["Thin Tone 1", "Thin Tone 1", "Thin Tone 1"],
+              "value": ["Male1Tone1", "Male1Tone1", "Male1Tone1"]
+            },
+            "1": {
+              "name": ["Thin Tone 2", "Thin Tone 2", "Thin Tone 2"],
+              "value": ["Male1Tone2", "Male1Tone2", "Male1Tone2"]
+            },
+            "2": {
+              "name": ["Thin Tone 3", "Thin Tone 3", "Thin Tone 3"],
+              "value": ["Male1Tone3", "Male1Tone3", "Male1Tone3"]
+            },
+            "3": {
+              "name": ["Thin Tone 4", "Thin Tone 4", "Thin Tone 4"],
+              "value": ["Male1Tone4", "Male1Tone4", "Male1Tone4"]
+            },
+            "4": {
+              "name": ["Thin Tone 5", "Thin Tone 5", "Thin Tone 5"],
+              "value": ["Male1Tone5", "Male1Tone5", "Male1Tone5"]
+            },
+            "5": {
+              "name": ["Medium Tone 1", "Medium Tone 1", "Medium Tone 1"],
+              "value": ["Male2Tone1", "Male2Tone1", "Male2Tone1"]
+            },
+            "6": {
+              "name": ["Medium Tone 2", "Medium Tone 2", "Medium Tone 2"],
+              "value": ["Male2Tone2", "Male2Tone2", "Male2Tone2"]
+            },
+            "7": {
+              "name": ["Medium Tone 3", "Medium Tone 3", "Medium Tone 3"],
+              "value": ["Male2Tone3", "Male2Tone3", "Male2Tone3"]
+            },
+            "8": {
+              "name": ["Medium Tone 4", "Medium Tone 4", "Medium Tone 4"],
+              "value": ["Male2Tone4", "Male2Tone4", "Male2Tone4"]
+            },
+            "9": {
+              "name": ["Medium Tone 5", "Medium Tone 5", "Medium Tone 5"],
+              "value": ["Male2Tone5", "Male2Tone5", "Male2Tone5"]
+            }
+          }
+        },
+        "2": {
+          "label": "Smile",
+          "component": "Mouth",
+          "prop": "type",
+          "tab": "Mouth",
+          "values": {
+            "0": {
+              "name": ["Mouth 1", "Mouth 1", "Mouth 1"],
+              "value": ["Mouth1", "Mouth1", "Mouth1"]
+            },
+            "1": {
+              "name": ["Mouth 2", "Mouth 2", "Mouth 2"],
+              "value": ["Mouth2", "Mouth2", "Mouth2"]
+            }
+          }
+        },
+        "3": {
+          "component": "Nose",
+          "prop": "type",
+          "tab": "Nose",
+          "values": {
+            "0": {
+              "name": ["Nose 1", "Nose 1", "Nose 1"],
+              "value": ["Nose5", "Nose5", "Nose5"]
+            },
+            "1": {
+              "name": ["Nose 2", "Nose 2", "Nose 2"],
+              "value": ["Nose6", "Nose6", "Nose6"]
+            },
+            "2": {
+              "name": ["Nose 3", "Nose 3", "Nose 3"],
+              "value": ["Nose7", "Nose7", "Nose7"]
+            }
+          }
+        },
+        "4": {
+          "label": "Headwear",
+          "component": "Hats",
+          "prop": "type",
+          "tab": "Headwear",
+          "values": {
+            "0": {
+              "name": ["Bike Helmet", "Bike Helmet", "Bike Helmet"],
+              "value": ["BikeHelmet", "BikeHelmet", "BikeHelmet"]
+            },
+            "1": {
+              "name": ["Crown", "Crown", "Crown"],
+              "value": ["Crown", "Crown", "Crown"]
+            },
+            "2": {
+              "name": ["Hat 1", "Hat 1", "Hat 1"],
+              "value": ["Hat1", "Hat1", "Hat1"]
+            },
+            "3": {
+              "name": ["Helmet 1", "Helmet 1", "Helmet 1"],
+              "value": ["Helmet1", "Helmet1", "Helmet1"]
+            },
+            "4": {
+              "name": ["Helmet 2", "Helmet 2", "Helmet 2"],
+              "value": ["Helmet2", "Helmet2", "Helmet2"]
+            },
+            "5": {
+              "name": ["No headwear", "No headwear", "No headwear"],
+              "value": ["NoHeadwear", "NoHeadwear", "NoHeadwear"]
+            },
+            "6": {
+              "name": ["Visor", "Visor", "Visor"],
+              "value": ["Visor1", "Visor1", "Visor1"]
+            }
+          }
+        },
+        "5": {
+          "label": "Hair",
+          "component": "Hair",
+          "prop": "type",
+          "tab": "Hair",
+          "values": {
+            "0": {
+              "name": ["No Hair", "No Hair", "No Hair"],
+              "value": ["NoHair", "NoHair", "NoHair"]
+            },
+            "1": {
+              "name": ["Hair 1", "Hair 1", "Hair 1"],
+              "value": ["Hair1", "Hair1", "Hair1"]
+            },
+            "2": {
+              "name": ["Hair 2", "Hair 2", "Hair 2"],
+              "value": ["Hair2", "Hair2", "Hair2"]
+            },
+            "3": {
+              "name": ["Hair 5", "Hair 5", "Hair 5"],
+              "value": ["Hair5", "Hair5", "Hair5"]
+            }
+          }
+        },
+        "6": {
+          "label": "Hair type",
+          "component": "MaleHair",
+          "prop": "type",
+          "tab": "Facehair",
+          "values": {
+            "0": {
+              "name": ["No Hair", "No Hair", "No Hair"],
+              "value": ["NoHair", "NoHair", "NoHair"]
+            },
+            "1": {
+              "name": ["Goatee 1", "Goatee 1", "Goatee 1"],
+              "value": ["Goatee1", "Goatee1", "Goatee1"]
+            },
+            "2": {
+              "name": ["Mustache 1", "Mustache 1", "Mustache 1"],
+              "value": ["Mustache1", "Mustache1", "Mustache1"]
+            }
+          }
+        },
+        "7": {
+          "label": "Eyes type",
+          "component": "Eyes",
+          "prop": "type",
+          "tab": "Eyes",
+          "values": {
+            "0": {
+              "name": ["Eyes 1", "Eyes 1", "Eyes 1"],
+              "value": ["Eyes1", "Eyes1", "Eyes1"]
+            },
+            "1": {
+              "name": ["Eyes 2", "Eyes 2", "Eyes 2"],
+              "value": ["Eyes2", "Eyes2", "Eyes2"]
+            }
+          }
+        },
+        "8": {
+          "label": "Glasses type",
+          "component": "Glasses",
+          "prop": "type",
+          "tab": "Eyewear",
+          "values": {
+            "0": {
+              "name": ["No Glasses", "No Glasses", "No Glasses"],
+              "value": ["NoGlasses", "NoGlasses", "NoGlasses"]
+            },
+            "1": {
+              "name": ["Glasses 1", "Glasses 1", "Glasses 1"],
+              "value": ["Glasses1", "Glasses1", "Glasses1"]
+            },
+            "2": {
+              "name": ["Glasses 2", "Glasses 2", "Glasses 2"],
+              "value": ["Glasses2", "Glasses2", "Glasses2"]
+            },
+            "3": {
+              "name": ["Glasses 3", "Glasses 3", "Glasses 3"],
+              "value": ["Glasses3", "Glasses3", "Glasses3"]
+            },
+            "4": {
+              "name": ["Glasses 4", "Glasses 4", "Glasses 4"],
+              "value": ["Glasses4", "Glasses4", "Glasses4"]
+            },
+            "5": {
+              "name": ["Sunglasses", "Sunglasses", "Sunglasses"],
+              "value": ["Sunglasses", "Sunglasses", "Sunglasses"]
+            }
+          }
+        }
+      },
+      "Accessories": {
+        "type": ["NoAccessory"]
+      },
+      "Eyes": {
+        "type": "Eyes2"
+      },
+      "Hair": {
+        "type": "Hair2"
+      },
+      "Hats": {
+        "type": "NoHeadwear"
+      },
+      "MaleBody": {
+        "type": "Male1Tone5"
+      },
+      "MaleGlasses": {
+        "type": "NoGlasses"
+      },
+      "MaleHair": {
+        "type": "NoHair"
+      },
+      "Mouth": {
+        "type": "Mouth2"
+      },
+      "Nose": {
+        "type": "Nose5\""
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "isSuccess": true,
+  "data": {
+    "totalItems": 366,
+    "data": [
+      {
+        "date": "2022-04-08T20:25:15.979Z",
+        "id": "154935be-6d54-4978-72c6-08d9f2eda5dc",
+        "userGroups": ["All Admins"],
+        "status": "Sent",
+        "contentLocale": "uk-UA",
+        "description": "test",
+        "title": "test"
+      },
+      {
+        "date": "2022-04-08T20:25:15.979Z",
+        "id": "c69e6b4b-22b0-41fc-6dc9-08d9f1f4c043",
+        "userGroups": ["All Admins"],
+        "status": "Sent",
+        "imageUrl": "https://expertzonemobile.blob.core.windows.net/notification-images/17c2aaec09be164237bdb0d8866b3565.jpg",
+        "contentLocale": "All",
+        "description": "test",
+        "title": "android test"
+      },
+      {
+        "date": "2022-04-08T20:25:15.979Z",
+        "id": "3b685bc7-e407-4ba7-4fa2-08d9b5691e38",
+        "userGroups": ["qa android removed 4"],
+        "status": "Sent",
+        "imageUrl": "https://expertzonemobile.blob.core.windows.net/notification-images/1560664251_3.jpg",
+        "contentLocale": "en-US",
+        "description": "test",
+        "title": "android push notifications test 2"
+      },
+      {
+        "date": "2022-04-08T20:25:15.979Z",
+        "id": "f061f8ec-9062-42e2-4fa1-08d9b5691e38",
+        "userGroups": ["qa android removed 4"],
+        "status": "Sent",
+        "imageUrl": "https://expertzonemobile.blob.core.windows.net/notification-images/17c2aaec09be164237bdb0d8866b3565.jpg",
+        "contentLocale": "All",
+        "description": "test",
+        "title": "android push notifications test"
+      },
+      {
+        "date": "2022-04-08T20:25:15.979Z",
+        "id": "9126dd8d-a278-493b-86b9-08d9b4cf26b8",
+        "userGroups": ["qa android test 2 Updated 5"],
+        "status": "Draft",
+        "contentLocale": "All",
+        "description": "test",
+        "title": "test"
+      },
+      {
+        "date": "2022-04-08T20:25:15.979Z",
+        "id": "c67e4d62-b327-418c-9872-08d97cd08049",
+        "userGroups": ["qa android test 2 Updated 3"],
+        "status": "Sent",
+        "imageUrl": "https://expertzonemobile.blob.core.windows.net/notification-images/17c2aaec09be164237bdb0d8866b3565.jpg",
+        "contentLocale": "All",
+        "description": "Быстро создавайте интегрированные инновации и контент в режиме 24/7. Авторитетно концептуализируйте беспрепятственные стратегические тематические области, а не задействуйте человеческий капитал. Удобный переход от критически важных сетей к электронным рынкам B2C. Постоянно улучшайте непрерывные проц",
+        "title": "Быстро создавайте интегрированные инновации и контент в режиме 24/7. Авт"
+      }
+    ]
+  },
+  "message": ""
+}

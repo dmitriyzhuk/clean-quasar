@@ -1,0 +1,83 @@
+{
+  "data": [
+    {
+      "id": "a0f1e809-df03-4332-be74-cca85ec8f09e",
+      "header": "New course available (added by Lilit) ",
+      "description": "New course available (added by Lilit) ",
+      "primaryActionUrl": "course:2249708",
+      "secondaryActionUrl": "course:2368173",
+      "imageUrl": "images/slide_a0f1e809-df03-4332-be74-cca85ec8f09e_77031953-ceb6-4b15-b026-56e52b9af4b7",
+      "order": 1,
+      "primaryButtonLabel": "Enroll Now",
+      "secondaryButtonLabel": "See Details",
+      "primaryAction": "GO_TO_COURSE",
+      "secondaryAction": "GO_TO_COURSE"
+    },
+    {
+      "id": "5f035bdf-3043-495a-ad90-c6f868986c15",
+      "header": "DAUS Demo course 1 with  File Submission",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut a",
+      "primaryActionUrl": "course:3004351",
+      "secondaryActionUrl": "course:3004351",
+      "imageUrl": "images/slide_5f035bdf-3043-495a-ad90-c6f868986c15_00f0fe10-ac96-4d18-8221-3b2c6f838075",
+      "order": 2,
+      "primaryButtonLabel": "Enroll Now",
+      "secondaryButtonLabel": "See Details",
+      "primaryAction": "ENROLL_NOW",
+      "secondaryAction": "GO_TO_COURSE"
+    },
+    {
+      "id": "0e6f2ad0-04d0-46be-b88e-f866ed436b2c",
+      "header": "DAUS Demo LP",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut a",
+      "primaryActionUrl": "learningProgram:86317",
+      "secondaryActionUrl": "https://dominos-aus-dev.cosocloud.com/#/learningProgram/learningProgram:86317",
+      "imageUrl": "images/slide_0e6f2ad0-04d0-46be-b88e-f866ed436b2c_7e9d814d-28e2-49e1-97d2-2d182dbecd14",
+      "order": 3,
+      "primaryButtonLabel": "Visit",
+      "secondaryButtonLabel": "Go to URL",
+      "primaryAction": "GO_TO_COURSE",
+      "secondaryAction": "GO_TO_URL"
+    },
+    {
+      "id": "35b67ade-e4a1-48e3-a03e-dd6914307882",
+      "header": "Manager nominated course",
+      "description": "Course ",
+      "primaryActionUrl": "course:2387233",
+      "secondaryActionUrl": "course:2387233",
+      "imageUrl": "images/slide_35b67ade-e4a1-48e3-a03e-dd6914307882_68997d83-1298-4279-a43a-267a7200300a",
+      "order": 6,
+      "primaryButtonLabel": "Enroll Now",
+      "secondaryButtonLabel": "See Details",
+      "primaryAction": "ENROLL_NOW",
+      "secondaryAction": "GO_TO_COURSE"
+    },
+    {
+      "id": "d06cece0-9e7c-4052-b91e-7ed8fa9392e3",
+      "header": "LP enrollment deadline has passed",
+      "description": "LP",
+      "primaryActionUrl": "learningProgram:66030",
+      "secondaryActionUrl": "learningProgram:66030",
+      "imageUrl": "images/slide_d06cece0-9e7c-4052-b91e-7ed8fa9392e3_1ed176ff-ea07-4035-990a-bc862b332485",
+      "order": 15,
+      "primaryButtonLabel": "Enroll Now",
+      "secondaryButtonLabel": "See Details",
+      "primaryAction": "ENROLL_NOW",
+      "secondaryAction": "GO_TO_COURSE"
+    },
+    {
+      "id": "a9e41330-a637-4a36-847d-a40c33c95e94",
+      "header": "LP completion deadline has passed",
+      "description": "LP",
+      "primaryActionUrl": "learningProgram:66029",
+      "secondaryActionUrl": "learningProgram:66029",
+      "imageUrl": "images/slide_a9e41330-a637-4a36-847d-a40c33c95e94_848da1b6-0f76-4db7-b51d-c7c7c3c6f897",
+      "order": 16,
+      "primaryButtonLabel": "Enroll Now",
+      "secondaryButtonLabel": "See Details",
+      "primaryAction": "ENROLL_NOW",
+      "secondaryAction": "GO_TO_COURSE"
+    }
+  ],
+  "isSuccess": true
+}

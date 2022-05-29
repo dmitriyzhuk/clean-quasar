@@ -1,0 +1,479 @@
+{
+  "isSuccess": true,
+  "data": {
+    "totalItems": 366,
+    "data": [
+      {
+        "date": 1645195677249,
+        "id": "154935be-6d54-4978-72c6-08d9f2eda5dc",
+        "userGroups": ["All Admins"],
+        "status": "Sent",
+        "contentLocale": "uk-UA",
+        "description": "test",
+        "title": "test"
+      },
+      {
+        "date": 1645088778173,
+        "id": "c69e6b4b-22b0-41fc-6dc9-08d9f1f4c043",
+        "userGroups": ["All Admins"],
+        "status": "Sent",
+        "imageUrl": "https://expertzonemobile.blob.core.windows.net/notification-images/17c2aaec09be164237bdb0d8866b3565.jpg",
+        "contentLocale": "All",
+        "description": "test",
+        "title": "android test"
+      },
+      {
+        "date": 1638431769002,
+        "id": "3b685bc7-e407-4ba7-4fa2-08d9b5691e38",
+        "userGroups": ["qa android removed 4"],
+        "status": "Sent",
+        "imageUrl": "https://expertzonemobile.blob.core.windows.net/notification-images/1560664251_3.jpg",
+        "contentLocale": "en-US",
+        "description": "test",
+        "title": "android push notifications test 2"
+      },
+      {
+        "date": 1638431736828,
+        "id": "f061f8ec-9062-42e2-4fa1-08d9b5691e38",
+        "userGroups": ["qa android removed 4"],
+        "status": "Sent",
+        "imageUrl": "https://expertzonemobile.blob.core.windows.net/notification-images/17c2aaec09be164237bdb0d8866b3565.jpg",
+        "contentLocale": "All",
+        "description": "test",
+        "title": "android push notifications test"
+      },
+      {
+        "date": 1638365672975,
+        "id": "9126dd8d-a278-493b-86b9-08d9b4cf26b8",
+        "userGroups": ["qa android test 2 Updated 5"],
+        "status": "Draft",
+        "contentLocale": "All",
+        "description": "test",
+        "title": "test"
+      },
+      {
+        "date": 1632209000824,
+        "id": "c67e4d62-b327-418c-9872-08d97cd08049",
+        "userGroups": ["qa android test 2 Updated 3"],
+        "status": "Sent",
+        "imageUrl": "https://expertzonemobile.blob.core.windows.net/notification-images/17c2aaec09be164237bdb0d8866b3565.jpg",
+        "contentLocale": "All",
+        "description": "Быстро создавайте интегрированные инновации и контент в режиме 24/7. Авторитетно концептуализируйте беспрепятственные стратегические тематические области, а не задействуйте человеческий капитал. Удобный переход от критически важных сетей к электронным рынкам B2C. Постоянно улучшайте непрерывные проц",
+        "title": "Быстро создавайте интегрированные инновации и контент в режиме 24/7. Авт"
+      },
+      {
+        "date": 1632208921126,
+        "id": "eddee4b1-a926-474b-9871-08d97cd08049",
+        "userGroups": ["qa android test 2 Updated 3"],
+        "status": "Sent",
+        "contentLocale": "All",
+        "description": "Быстро создавайте интегрированные инновации и контент в режиме 24/7. Авторитетно концептуализируйте беспрепятственные стратегические тематические области, а не задействуйте человеческий капитал. Удобный переход от критически важных сетей к электронным рынкам B2C. Постоянно улучшайте непрерывные проц",
+        "title": "Быстро создавайте интегрированные инновации и контент в режиме 24/7. Авт"
+      },
+      {
+        "date": 1631873135308,
+        "id": "2d61bdd8-c70d-41ec-f4d9-08d979ae6f70",
+        "userGroups": ["Dima test user group"],
+        "status": "Sent",
+        "contentLocale": "All",
+        "description": "5",
+        "title": "5"
+      },
+      {
+        "date": 1631872847457,
+        "id": "de82dc4b-d824-4790-f4d8-08d979ae6f70",
+        "userGroups": ["Dima test user group"],
+        "status": "Sent",
+        "contentLocale": "All",
+        "description": "4",
+        "title": "4"
+      },
+      {
+        "date": 1631872813935,
+        "id": "77d8f6a8-d242-41e3-f4d7-08d979ae6f70",
+        "userGroups": ["Dima test user group"],
+        "status": "Sent",
+        "contentLocale": "All",
+        "description": "3",
+        "title": "3"
+      },
+      {
+        "date": 1631872781806,
+        "id": "e5a5b2d8-3e2f-414f-f4d6-08d979ae6f70",
+        "userGroups": ["Dima test user group"],
+        "status": "Sent",
+        "contentLocale": "All",
+        "description": "2",
+        "title": "2"
+      },
+      {
+        "date": 1631872754209,
+        "id": "01423137-925b-44ac-f4d5-08d979ae6f70",
+        "userGroups": ["Dima test user group"],
+        "status": "Sent",
+        "contentLocale": "All",
+        "description": "нуфр",
+        "title": "уе"
+      },
+      {
+        "date": 1631871091778,
+        "id": "537fa30d-8938-454c-f4d4-08d979ae6f70",
+        "userGroups": ["Dima test user group"],
+        "status": "Sent",
+        "contentLocale": "All",
+        "description": "TET",
+        "title": "TEST"
+      },
+      {
+        "date": 1631871050513,
+        "id": "26013bd9-8308-41b5-f4d3-08d979ae6f70",
+        "userGroups": ["Dima test user group"],
+        "status": "Sent",
+        "contentLocale": "All",
+        "description": "test",
+        "title": "Test"
+      },
+      {
+        "date": 1631868350301,
+        "id": "aa2a9093-ca1e-4d86-f4d2-08d979ae6f70",
+        "userGroups": ["Dima test user group"],
+        "status": "Sent",
+        "contentLocale": "All",
+        "description": "push4",
+        "title": "push4"
+      },
+      {
+        "date": 1631868330851,
+        "id": "51bb7d15-efd7-4a38-f4d1-08d979ae6f70",
+        "userGroups": ["Dima test user group"],
+        "status": "Sent",
+        "contentLocale": "All",
+        "description": "push3",
+        "title": "push3"
+      },
+      {
+        "date": 1631868128964,
+        "id": "e5dc6a77-ff40-40cb-f4d0-08d979ae6f70",
+        "userGroups": ["Dima test user group"],
+        "status": "Sent",
+        "contentLocale": "All",
+        "description": "push2",
+        "title": "push2"
+      },
+      {
+        "date": 1631868111853,
+        "id": "75ab16a4-f175-48e0-f4cf-08d979ae6f70",
+        "userGroups": ["Dima test user group"],
+        "status": "Sent",
+        "contentLocale": "All",
+        "description": "push1",
+        "title": "push1"
+      },
+      {
+        "date": 1631867349539,
+        "id": "36f21563-980a-4800-f4ce-08d979ae6f70",
+        "userGroups": ["Dima test user group"],
+        "status": "Sent",
+        "contentLocale": "All",
+        "description": "test3",
+        "title": "test"
+      },
+      {
+        "date": 1631867293811,
+        "id": "9b1a0f78-fd96-4bdb-f4cd-08d979ae6f70",
+        "userGroups": ["Dima test user group"],
+        "status": "Sent",
+        "contentLocale": "All",
+        "description": "test3",
+        "title": "test3"
+      },
+      {
+        "date": 1631867268765,
+        "id": "81c770cf-4c30-4023-f4cc-08d979ae6f70",
+        "userGroups": ["Dima test user group"],
+        "status": "Sent",
+        "contentLocale": "All",
+        "description": "test2",
+        "title": "test2"
+      },
+      {
+        "date": 1631867248105,
+        "id": "61f9430c-9cd5-4e95-f4cb-08d979ae6f70",
+        "userGroups": ["Dima test user group"],
+        "status": "Sent",
+        "contentLocale": "All",
+        "description": "test",
+        "title": "test"
+      },
+      {
+        "date": 1631866676848,
+        "id": "e1358127-d6db-4dfa-f4ca-08d979ae6f70",
+        "userGroups": ["Dima test user group"],
+        "status": "Sent",
+        "contentLocale": "All",
+        "description": "WOOOOOOOOOOOOOOOOOOOOOOOOORLDDDDDDD",
+        "title": "Hello wowow"
+      },
+      {
+        "date": 1631866641145,
+        "id": "b9099cd8-8162-4c93-f4c9-08d979ae6f70",
+        "userGroups": ["Dima test user group"],
+        "status": "Sent",
+        "contentLocale": "All",
+        "description": "World2",
+        "title": "Hello"
+      },
+      {
+        "date": 1631866622820,
+        "id": "0b08a2ce-8e21-4b21-f4c8-08d979ae6f70",
+        "userGroups": ["Dima test user group"],
+        "status": "Sent",
+        "contentLocale": "All",
+        "description": "World",
+        "title": "Hello"
+      },
+      {
+        "date": 1631864532974,
+        "id": "2cf19785-31fb-48aa-f4c7-08d979ae6f70",
+        "userGroups": ["Dima test user group"],
+        "status": "Sent",
+        "contentLocale": "All",
+        "description": "World3",
+        "title": "Hello"
+      },
+      {
+        "date": 1631864464477,
+        "id": "ef4e2789-a07d-4d3f-f4c6-08d979ae6f70",
+        "userGroups": ["Dima test user group"],
+        "status": "Sent",
+        "contentLocale": "All",
+        "description": "WOrld2",
+        "title": "HEllo2"
+      },
+      {
+        "date": 1631864436620,
+        "id": "eda8ad51-c4c9-4220-f4c5-08d979ae6f70",
+        "userGroups": ["Dima test user group"],
+        "status": "Sent",
+        "contentLocale": "All",
+        "description": "World",
+        "title": "Hello"
+      },
+      {
+        "date": 1631690048944,
+        "id": "39859f5a-6ca3-4b08-e266-08d97815631e",
+        "userGroups": ["Dima test user group"],
+        "status": "Sent",
+        "contentLocale": "All",
+        "description": "push",
+        "title": "push"
+      },
+      {
+        "date": 1631689841702,
+        "id": "b42a0876-dce1-4387-e265-08d97815631e",
+        "userGroups": ["Dima test user group"],
+        "status": "Sent",
+        "contentLocale": "All",
+        "description": "notofocation",
+        "title": "push"
+      },
+      {
+        "date": 1631688751313,
+        "id": "c307cf7f-012c-4c8b-e264-08d97815631e",
+        "userGroups": ["Dima test user group"],
+        "status": "Sent",
+        "contentLocale": "All",
+        "description": "check push",
+        "title": "dmitriy push check"
+      },
+      {
+        "date": 1630994963573,
+        "id": "4541667c-78e9-4552-e80a-08d971c5ffd2",
+        "userGroups": ["qa android test 1 UPDATED 3"],
+        "status": "Sent",
+        "imageUrl": "https://expertzonemobile.blob.core.windows.net/notification-images/17c2aaec09be164237bdb0d8866b3565.jpg",
+        "contentLocale": "All",
+        "description": "test",
+        "title": "Android test"
+      },
+      {
+        "date": 1630680321816,
+        "id": "0a547f26-bd04-42a6-cd5e-08d96ee953fb",
+        "userGroups": ["Dima test user group"],
+        "status": "Sent",
+        "imageUrl": "https://expertzonemobile.blob.core.windows.net/notification-images/%D1%84%D0%BB%D0%B0%D0%B3%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D0%B0%D0%BF%D0%BA%D0%B8.png",
+        "contentLocale": "All",
+        "description": "img test",
+        "title": "img test"
+      },
+      {
+        "date": 1630680269494,
+        "id": "fe38301b-b79a-45c5-cd5d-08d96ee953fb",
+        "userGroups": ["Dima test user group"],
+        "status": "Sent",
+        "contentLocale": "All",
+        "description": "test",
+        "title": "test"
+      },
+      {
+        "date": 1630675997139,
+        "id": "d9603bc2-db20-4b27-b202-08d96eddf583",
+        "userGroups": ["Dima test user group"],
+        "status": "Sent",
+        "imageUrl": "https://expertzonemobile.blob.core.windows.net/notification-images/%D1%84%D0%BB%D0%B0%D0%B3%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D0%B0%D0%BF%D0%BA%D0%B8.png",
+        "contentLocale": "All",
+        "description": "HELLO DIMA",
+        "title": "DIMA TEST"
+      },
+      {
+        "date": 1630675702669,
+        "id": "e4a59d86-6564-4718-b201-08d96eddf583",
+        "userGroups": ["All Users"],
+        "status": "Sent",
+        "imageUrl": "https://expertzonemobile.blob.core.windows.net/notification-images/%D1%84%D0%BB%D0%B0%D0%B3%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D0%B0%D0%BF%D0%BA%D0%B8.png",
+        "contentLocale": "All",
+        "description": "HELLO!!!",
+        "title": "ALL USERS HELLO"
+      },
+      {
+        "date": 1630675440109,
+        "id": "5bcc9e85-a3e1-4867-b200-08d96eddf583",
+        "userGroups": ["All Users"],
+        "status": "Sent",
+        "contentLocale": "All",
+        "description": "YAY!!!",
+        "title": "We are back in business"
+      },
+      {
+        "date": 1630675386163,
+        "id": "42b98655-8e77-4dc1-b1ff-08d96eddf583",
+        "userGroups": ["Dima test user group"],
+        "status": "Sent",
+        "imageUrl": "https://expertzonemobile.blob.core.windows.net/notification-images/%D1%84%D0%BB%D0%B0%D0%B3%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D0%B0%D0%BF%D0%BA%D0%B8.png",
+        "contentLocale": "All",
+        "description": "ios super test",
+        "title": "test"
+      },
+      {
+        "date": 1630659555992,
+        "id": "efce76f3-8ba1-45a9-9ec3-08d96ea45da7",
+        "userGroups": ["Dima test user group"],
+        "status": "Sent",
+        "imageUrl": "https://expertzonemobile.blob.core.windows.net/notification-images/%D1%84%D0%BB%D0%B0%D0%B3%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D0%B0%D0%BF%D0%BA%D0%B8.png",
+        "contentLocale": "All",
+        "description": "ios push notification test\t",
+        "title": "ios push notification test\t"
+      },
+      {
+        "date": 1630655565676,
+        "id": "928ef9de-0787-4d0a-9ec2-08d96ea45da7",
+        "userGroups": ["Dima test user group"],
+        "status": "Sent",
+        "imageUrl": "https://expertzonemobile.blob.core.windows.net/notification-images/%D1%84%D0%BB%D0%B0%D0%B3%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D0%B0%D0%BF%D0%BA%D0%B8.png",
+        "contentLocale": "All",
+        "description": "ios push notification test",
+        "title": "ios push notification test"
+      },
+      {
+        "date": 1630655468581,
+        "id": "307ba3bf-96b6-4483-9ec1-08d96ea45da7",
+        "userGroups": ["Dima test user group"],
+        "status": "Sent",
+        "imageUrl": "https://expertzonemobile.blob.core.windows.net/notification-images/%D1%84%D0%BB%D0%B0%D0%B3%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D0%B0%D0%BF%D0%BA%D0%B8.png",
+        "contentLocale": "All",
+        "description": "ios push test",
+        "title": "ios push test"
+      },
+      {
+        "date": 1630655024131,
+        "id": "0df8a000-b221-4739-9ec0-08d96ea45da7",
+        "userGroups": ["Dima test user group"],
+        "status": "Sent",
+        "imageUrl": "https://expertzonemobile.blob.core.windows.net/notification-images/%D1%84%D0%BB%D0%B0%D0%B3%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D0%B0%D0%BF%D0%BA%D0%B8.png",
+        "contentLocale": "All",
+        "description": "test ios push",
+        "title": "test ios push"
+      },
+      {
+        "date": 1630651172682,
+        "id": "f3e789d3-c2f0-4282-9ebf-08d96ea45da7",
+        "userGroups": ["Dima test user group"],
+        "status": "Sent",
+        "imageUrl": "https://expertzonemobile.blob.core.windows.net/notification-images/%D1%84%D0%BB%D0%B0%D0%B3%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D0%B0%D0%BF%D0%BA%D0%B8.png",
+        "contentLocale": "All",
+        "description": "ios push test",
+        "title": "ios push test"
+      },
+      {
+        "date": 1630650650714,
+        "id": "14c104fc-b2b8-4776-9ebe-08d96ea45da7",
+        "userGroups": ["Dima test user group"],
+        "status": "Sent",
+        "imageUrl": "https://expertzonemobile.blob.core.windows.net/notification-images/%D1%84%D0%BB%D0%B0%D0%B3%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D0%B0%D0%BF%D0%BA%D0%B8.png",
+        "contentLocale": "All",
+        "description": "test ios push",
+        "title": "test ios push"
+      },
+      {
+        "date": 1630565801279,
+        "id": "6924a6f7-7503-4b21-a9c3-08d96ddecf71",
+        "userGroups": ["Kate-test notif user group"],
+        "status": "Sent",
+        "imageUrl": "https://expertzonemobile.blob.core.windows.net/notification-images/1560664251_3.jpg",
+        "contentLocale": "All",
+        "description": "V.1.17.3",
+        "title": "Android push notif test "
+      },
+      {
+        "date": 1630480131340,
+        "id": "20db1d5e-7cb9-46f9-320b-08d96d1562a9",
+        "userGroups": ["Kate-test notif user group"],
+        "status": "Sent",
+        "imageUrl": "https://expertzonemobile.blob.core.windows.net/notification-images/SP2_MyEZ_Tier1_Active.png",
+        "contentLocale": "All",
+        "description": "test",
+        "title": "Back to scholl"
+      },
+      {
+        "date": 1630406088890,
+        "id": "51d74f16-cd19-45c1-dbbb-08d96c58740f",
+        "userGroups": ["All Users"],
+        "status": "Sent",
+        "contentLocale": "All",
+        "description": "testing app pushes ",
+        "title": "test app"
+      },
+      {
+        "date": 1630399996464,
+        "id": "0ca7f7bb-8b8f-4fbb-dbba-08d96c58740f",
+        "userGroups": ["Dima test user group"],
+        "status": "Sent",
+        "imageUrl": "https://expertzonemobile.blob.core.windows.net/notification-images/imgonline-com-ua-Resize-mYtnvLBXLYw.jpg",
+        "contentLocale": "All",
+        "description": "tets",
+        "title": "Test"
+      },
+      {
+        "date": 1630398390689,
+        "id": "21ee42ee-4f53-4867-dbb9-08d96c58740f",
+        "userGroups": ["Dima test user group"],
+        "status": "Sent",
+        "imageUrl": "https://expertzonemobile.blob.core.windows.net/notification-images/fkcou8eyserz_g2usxm3a7_0jgy.png",
+        "contentLocale": "All",
+        "description": "test",
+        "title": "push"
+      },
+      {
+        "date": 1630398143321,
+        "id": "d0be0270-e89d-4ca2-dbb8-08d96c58740f",
+        "userGroups": ["Dima test user group"],
+        "status": "Sent",
+        "imageUrl": "https://expertzonemobile.blob.core.windows.net/notification-images/-_zw4olg0ichesidkgofldi58mo.png",
+        "contentLocale": "All",
+        "description": "Test",
+        "title": "Test"
+      }
+    ]
+  },
+  "message": ""
+}
