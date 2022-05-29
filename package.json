@@ -1,6 +1,6 @@
 {
   "name": "clean-quasar",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Quasar Project",
   "productName": "Clean Quasar",
   "author": "Dmitriy Zhuk <dmitriy.zhuk@cosocloud.com>",
@@ -70,6 +70,44 @@
   "lint-staged": {
     "*.{js,ts,vue}": "eslint ./ --cache --fix --max-warnings=0",
     "*.{js,ts,vue,scss,html,md,json}": "prettier --write"
+  },
+  "standard-version": {
+    "types": [
+      {
+        "type": "feat",
+        "section": "Features"
+      },
+      {
+        "type": "fix",
+        "section": "Bug Fixes"
+      },
+      {
+        "type": "chore",
+        "hidden": true
+      },
+      {
+        "type": "docs",
+        "hidden": true
+      },
+      {
+        "type": "style",
+        "hidden": true
+      },
+      {
+        "type": "refactor",
+        "hidden": true
+      },
+      {
+        "type": "perf",
+        "hidden": true
+      },
+      {
+        "type": "test",
+        "hidden": true
+      }
+    ],
+    "commitUrlFormat": "https://github.com/mokkapps/changelog-generator-demo/commits/{{hash}}",
+    "compareUrlFormat": "https://github.com/mokkapps/changelog-generator-demo/compare/{{previousTag}}...{{currentTag}}"
   },
   "main": "index.js",
   "repository": "https://dmitriyzhuk@github.com/dmitriyzhuk/clean-quasar.git",
