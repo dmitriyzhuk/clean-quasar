@@ -6,7 +6,7 @@
   "author": "Dmitriy Zhuk <dmitriy.zhuk@cosocloud.com>",
   "private": true,
   "scripts": {
-    "dev": "quasar dev",
+    "dev": "quasar dev --watch",
     "dev:uat": "cross-env APP_ENV=uat quasar dev",
     "dev:prod": "cross-env APP_ENV=prod quasar dev",
     "build": "quasar build",
@@ -31,6 +31,7 @@
   "dependencies": {
     "@quasar/extras": "^1.0.0",
     "axios": "^0.21.1",
+    "axios-retry": "^3.2.5",
     "pinia": "^2.0.11",
     "quasar": "^2.6.0",
     "rsdi": "^2.1.1",

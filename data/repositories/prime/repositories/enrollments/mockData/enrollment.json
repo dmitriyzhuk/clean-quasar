@@ -1,0 +1,36 @@
+{
+  "links": {
+    "self": "https://captivateprime.adobe.com/primeapi/v2/enrollments/course:2897251_3323800_12528945"
+  },
+  "data": {
+    "id": "course:2897251_3323800_12528945",
+    "type": "learningObjectInstanceEnrollment",
+    "attributes": {
+      "enrollmentSource": "SELF_ENROLL",
+      "hasPassed": false,
+      "progressPercent": 0,
+      "score": 0,
+      "state": "WAITING"
+    },
+    "relationships": {
+      "learner": { "data": { "id": "12528945", "type": "user" } },
+      "learningObject": {
+        "data": { "id": "course:2897251", "type": "learningObject" }
+      },
+      "loInstance": {
+        "data": {
+          "id": "course:2897251_3323800",
+          "type": "learningObjectInstance"
+        }
+      },
+      "loResourceGrades": {
+        "data": [
+          {
+            "id": "course:2897251_3323800_7986222_0_99ff229e0a7b4daf83c97a480ee63f8f_c4008bbba7194d36a99f3a1c4dfc3178",
+            "type": "learningObjectResourceGrade"
+          }
+        ]
+      }
+    }
+  }
+}

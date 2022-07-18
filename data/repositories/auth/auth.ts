@@ -1,13 +1,14 @@
 import axios, { AxiosInstance } from 'axios';
-import { IAuthRepository, IAuthResponse, IAuthData, ISSOProvider } from './auth.types';
+import { IAuthRepository, IAuthResponse, IAuthData, ISSOProvider, IAuthMobile } from './auth.types';
 import { LocalStorage } from 'quasar';
 import { Platform } from 'quasar';
+
 import qs from 'qs';
-import { InAppBrowser, InAppBrowserEvent } from '@ionic-native/in-app-browser';
 
 export class AuthRepository implements IAuthRepository {
   axios: AxiosInstance;
   auth?: IAuthData;
+  authMobile?: IAuthMobile;
 
   constructor(
     public authApiBaseURL: string,
@@ -15,105 +16,86 @@ export class AuthRepository implements IAuthRepository {
     public primeClientId: string,
     public localStorageName: string = 'AUTH',
     public ssoProvider?: ISSOProvider,
+    public mobile: boolean = false,
     public scope: string = 'learner:read,learner:write'
   ) {
     this.axios = axios.create({
       baseURL: this.authApiBaseURL,
     });
+
+    if (this.mobile) {
+      const AuthMobile = require('./mobile');
+      this.authMobile = new AuthMobile(this.axios, this.ssoProvider);
+    }
   }
 
-  async init(): Promise<boolean> {
+  async init(): Promise<IAuthData | undefined> {
+    console.log('AUTH: init...');
+
     if (LocalStorage.has(this.localStorageName)) {
       const localAuth = LocalStorage.getItem<IAuthData>(this.localStorageName);
-      if (localAuth && localAuth.access_token) {
+      if (localAuth && localAuth?.access_token) {
         this.auth = await this.refreshToken(localAuth.refresh_token);
       }
     }
 
-    if (!this.auth) {
-      const auth = await this.authenticate();
-      if (auth) {
-        this.auth = auth;
-
-        LocalStorage.set(this.localStorageName, auth);
-      }
-    }
-
-    return Promise.resolve(!!this.auth);
-  }
-
-  async authenticate(): Promise<IAuthData | undefined> {
+    //capture authantication code from prime
     const queryData = qs.parse(location.search.replace('?', ''));
-
     if (queryData.code) {
       window.history.pushState({}, document.title, location.origin + location.pathname);
 
-      const response = await this.axios.post<IAuthResponse<IAuthData>>('prime-auth-api', {
+      const response = await this.axios.post<IAuthResponse<IAuthData>>('/', {
         code: queryData.code,
       });
+
       if (response.data?.isSuccess) {
-        return response.data?.isSuccess ? response.data?.data : undefined;
+        if (response.data?.data) {
+          this.auth = response.data?.data;
+          LocalStorage.set(this.localStorageName, response.data?.data);
+        }
       }
+    }
+
+    return Promise.resolve(this.auth);
+  }
+
+  authenticate(): void {
+    let authLink =
+      `${this.primeApiBaseURL}oauth/o/authorize?` +
+      `client_id=${this.primeClientId}&` +
+      `redirect_uri=${location.origin}${location.pathname}&` +
+      `scope=${this.scope}&` +
+      'response_type=CODE';
+
+    if (this.ssoProvider) {
+      authLink = this.ssoProvider.prepareLink(authLink);
+    }
+
+    if (Platform.is.capacitor && (Platform.is.ios || Platform.is.android)) {
+      this.authMobile?.authenticate(authLink);
     } else {
-      let authLink =
-        `${this.primeApiBaseURL}oauth/o/authorize?` +
-        `client_id=${this.primeClientId}&` +
-        `redirect_uri=${location.origin}${location.pathname}&` +
-        `scope=${this.scope}&` +
-        'response_type=CODE';
-
-      if (this.ssoProvider) {
-        authLink = this.ssoProvider.prepareLink(authLink);
-      }
-
-      if (Platform.is.capacitor && (Platform.is.ios || Platform.is.android)) {
-        const promise = new Promise<IAuthData | undefined>((resolve, reject) => {
-          const browser = InAppBrowser.create(authLink, '_blank', 'toolbar=no');
-          browser.on('loadstart').subscribe((event: InAppBrowserEvent) => {
-            //window should close when reaching the final link like http://localhost:8080/?PRIME_BASE=https://captivateprimeeu.adobe.com&code=32d9708b96c950666e00204632873153
-            if (event.url.indexOf('adobe.com&code') >= 0) {
-              const splitUrl = event.url.split('code=');
-              if (Platform.is.android) {
-                browser.close();
-              }
-              if (Platform.is.ios) {
-                setTimeout(() => browser.close(), 0);
-              }
-              window.history.pushState({}, document.title, location.origin + location.pathname);
-
-              this.axios
-                .post<IAuthResponse<IAuthData>>('prime-auth-api', {
-                  code: splitUrl[1],
-                })
-                .then((response) => {
-                  if (response.data.isSuccess) {
-                    resolve(response.data.data);
-                  } else {
-                    resolve(undefined);
-                  }
-                })
-                .catch(() => {
-                  reject();
-                });
-            }
-          });
-        });
-        const response = await promise;
-        return response;
-      } else {
-        window.open(authLink, '_self');
-      }
-
-      return Promise.reject();
+      window.open(authLink, '_self');
     }
   }
 
+  /**
+   *
+   * RefreshToken method just returns the current access_token. It does not refresh it.
+   * There is also no refresh token rotation in place.
+   *
+   * **Important!**
+   * When loging into another client, prime will log you out from here and the
+   * refresh token will not be valid at this point.
+   * @param token
+   * @returns Promise<IAuthData | undefined>
+   */
   async refreshToken(token: string): Promise<IAuthData | undefined> {
-    console.log('trying to refreshToken...');
+    console.log('AUTH: trying to refreshToken...');
     try {
-      const response = await this.axios.post<IAuthResponse<IAuthData>>('prime-auth-api/refresh', {
+      const response = await this.axios.post<IAuthResponse<IAuthData>>('refresh', {
         code: token,
       });
+
       if (response?.data?.isSuccess) {
         return response.data.isSuccess ? response.data?.data : undefined;
       }
@@ -123,7 +105,7 @@ export class AuthRepository implements IAuthRepository {
   }
 
   async logout() {
-    console.log('loging out...');
+    console.log('AUTH: loging out...');
     LocalStorage.remove(this.localStorageName);
 
     //clear cookie
@@ -143,46 +125,17 @@ export class AuthRepository implements IAuthRepository {
         logoutLink = this.ssoProvider.logoutLink(logoutLink);
       }
 
+      this.auth = undefined;
+
       if (Platform.is.capacitor && (Platform.is.ios || Platform.is.android)) {
-        const browser = InAppBrowser.create(logoutLink, '_blank', 'toolbar=no');
-        const promise = new Promise<void>((resolve, reject) => {
-          browser.on('loaderror').subscribe(() => {
-            reject();
-          });
-          browser.on('loadstart').subscribe((event: InAppBrowserEvent) => {
-            //window should close on seeing a link without 'logout' like this: https://captivateprimeeu.adobe.com/dausuat
-            if (this.isLogoutComplete(event.url)) {
-              setTimeout(() => {
-                if (Platform.is.android) {
-                  browser.close();
-                }
-                if (Platform.is.ios) {
-                  setTimeout(() => browser.close(), 0);
-                }
-              }, 10000);
-              this.auth = undefined;
-            }
-          });
-          browser.on('exit').subscribe(() => {
-            setTimeout(resolve, 2000);
-          });
-        });
-        await promise;
+        this.authMobile?.logout(logoutLink);
       } else {
-        window.open(logoutLink, '_self');
+        window.open(logoutLink);
       }
     }
   }
 
   getAuth(): IAuthData | undefined {
     return this.auth;
-  }
-
-  isLogoutComplete(link: string): boolean {
-    if (this.ssoProvider) {
-      return this.ssoProvider.isLogoutComplete(link);
-    }
-
-    return link.indexOf('logout') == -1;
   }
 }

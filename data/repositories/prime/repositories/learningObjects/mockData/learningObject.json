@@ -1,0 +1,68 @@
+{
+  "links": {
+    "self": "https://captivateprime.adobe.com/primeapi/v2/learningObjects/course:2368140"
+  },
+  "data": {
+    "id": "course:2368140",
+    "type": "learningObject",
+    "attributes": {
+      "authorNames": ["Anna CoSo"],
+      "dateCreated": "2021-07-27T13:45:46.000Z",
+      "datePublished": "2021-07-27T13:46:30.000Z",
+      "dateUpdated": "2021-07-27T13:46:30.000Z",
+      "duration": 2520,
+      "effectiveModifiedDate": "2021-07-27T13:46:30.000Z",
+      "effectivenessIndex": 0,
+      "enrollmentType": "Self Enroll",
+      "hasOptionalLoResources": false,
+      "isExternal": false,
+      "isMqaEnabled": false,
+      "isPrerequisiteEnforced": false,
+      "isSubLoOrderEnforced": false,
+      "loFormat": "Self Paced",
+      "loType": "course",
+      "moduleResetEnabled": false,
+      "state": "Published",
+      "unenrollmentAllowed": false,
+      "localizedMetadata": [
+        {
+          "description": "  Demo SM Intermediate 5",
+          "locale": "en-US",
+          "name": "   Demo SM Intermediate 5",
+          "overview": "",
+          "richTextOverview": ""
+        }
+      ],
+      "rating": {
+        "averageRating": 0,
+        "ratingsCount": 0
+      }
+    },
+    "relationships": {
+      "authors": {
+        "data": [
+          {
+            "id": "7080579",
+            "type": "user"
+          }
+        ]
+      },
+      "instances": {
+        "data": [
+          {
+            "id": "course:2368140_2772221",
+            "type": "learningObjectInstance"
+          }
+        ]
+      },
+      "skills": {
+        "data": [
+          {
+            "id": "course:2368140_123799",
+            "type": "learningObjectSkill"
+          }
+        ]
+      }
+    }
+  }
+}

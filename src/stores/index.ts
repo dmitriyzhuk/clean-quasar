@@ -1,5 +1,19 @@
 import { store } from 'quasar/wrappers';
-import { createPinia } from 'pinia';
+import { createPinia, defineStore } from 'pinia';
+import useAccount from './account';
+
+export const useStore = defineStore('index', () => {
+  const account = useAccount();
+
+  const init = async () => {
+    await account.init();
+  };
+
+  return {
+    account,
+    init,
+  };
+});
 
 /*
  * If not building with SSR mode, you can

@@ -2,10 +2,10 @@
   <router-view />
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue';
+<script lang="ts" setup>
+import { onBeforeMount } from 'vue';
+import { useStore } from 'src/stores';
 
-export default defineComponent({
-  name: 'App',
-});
+const store = useStore();
+onBeforeMount(async () => await store.init());
 </script>

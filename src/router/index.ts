@@ -2,6 +2,7 @@ import { route } from 'quasar/wrappers';
 import { createMemoryHistory, createRouter, createWebHashHistory, createWebHistory } from 'vue-router';
 
 import routes from './routes';
+export * from './paths';
 
 /*
  * If not building with SSR mode, you can

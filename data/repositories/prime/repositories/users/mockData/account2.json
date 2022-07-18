@@ -1,0 +1,26 @@
+{
+  "links": { "self": "https://captivateprime.adobe.com/primeapi/v2/user" },
+  "data": {
+    "id": "13194569",
+    "type": "user",
+    "attributes": {
+      "avatarUrl": "https://cpcontents.adobe.com/public/images/default_user_avatar.svg?cp_oauth_jwt=eyJhbGciOiJIUzI1NiJ9.eyJwIjoidXJsIiwicmFuZCI6ImY2MzgzZjU5LTM5ZjgtNGE2My04Y2E5LTUyOGI1ZDM5ZDJmZCIsInYiOiIxIiwib3JpZ2luYWxVcmxIYXNoIjoiMWU3OWU5N2NkYmMyMzUyM2I1ZjMxNGY1Yzg4NDE3NGI4ZDQwYWM3MyIsImV4cCI6MTYzNjMwMjIwNiwicmlkIjoiNDgxMzg1MyIsImlhdCI6MTYzNTY5NzQwNiwiY2lkIjoiMTI0OCJ9.0TvgV9lc8pk7WtD7bvBdaIBP1sWLugD-wv_sddJteVM",
+      "binUserId": "79e0a850-da83-459b-bfaf-5c9d05677d8f",
+      "email": "admintoken@cosocloud.com",
+      "enrollOnClick": false,
+      "gamificationEnabled": true,
+      "lastLoginDate": "2021-07-22T13:29:52.000Z",
+      "name": "INSITU Cyril Admin Token do not touch",
+      "pointsEarned": 0,
+      "pointsRedeemed": 0,
+      "profile": "admin",
+      "roles": ["Learner", "Admin", "Author", "Integration Admin"],
+      "state": "ACTIVE",
+      "userType": "Internal"
+    },
+    "relationships": {
+      "account": { "data": { "id": "19360", "type": "account" } },
+      "manager": { "data": { "id": "7006770", "type": "user" } }
+    }
+  }
+}

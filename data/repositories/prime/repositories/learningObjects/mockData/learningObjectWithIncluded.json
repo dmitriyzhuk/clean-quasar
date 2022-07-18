@@ -1,0 +1,771 @@
+{
+  "links": {
+    "self": "https://captivateprime.adobe.com/primeapi/v2/learningObjects/course:2392436?include=instances,enrollment,skills,subLOs,subLOs.instances.loResources,instances.loResources.resources,instances.loResources,enrollment,enrollment.loResourceGrades,enrollment.loInstance,enrollment.loInstance.loResources,enrollment.loInstance.loResources.resources,enrollment.loInstance.subLoInstances,enrollment.loInstance.subLoInstances.learningObject,enrollment.loInstance.subLoInstances.learningObject.enrollment,enrollment.loInstance.subLoInstances.learningObject.enrollment.loResourceGrades,enrollment.loInstance.subLoInstances.loResources,enrollment.loInstance.subLoInstances.loResources.resources"
+  },
+  "data": {
+    "id": "course:2392436",
+    "type": "learningObject",
+    "attributes": {
+      "authorNames": ["Maryna Lebiedieva "],
+      "dateCreated": "2021-08-09T13:00:17.000Z",
+      "datePublished": "2021-08-09T13:01:00.000Z",
+      "dateUpdated": "2022-02-16T10:53:15.000Z",
+      "duration": 9840,
+      "effectiveModifiedDate": "2022-02-16T10:53:15.000Z",
+      "enrollmentType": "Self Enroll",
+      "hasOptionalLoResources": true,
+      "isExternal": false,
+      "isMqaEnabled": false,
+      "isPrerequisiteEnforced": false,
+      "isSubLoOrderEnforced": false,
+      "loFormat": "Blended",
+      "loType": "course",
+      "moduleResetEnabled": false,
+      "state": "Published",
+      "unenrollmentAllowed": true,
+      "localizedMetadata": [
+        {
+          "description": "",
+          "locale": "en-US",
+          "name": "Maryna  one mandatory module",
+          "overview": "",
+          "richTextOverview": ""
+        }
+      ],
+      "rating": { "averageRating": 0, "ratingsCount": 0 }
+    },
+    "relationships": {
+      "authors": { "data": [{ "id": "13932415", "type": "user" }] },
+      "enrollment": { "data": { "id": "course:2392436_2809780_12528945", "type": "learningObjectInstanceEnrollment" } },
+      "instances": {
+        "data": [
+          { "id": "course:2392436_2809780", "type": "learningObjectInstance" },
+          { "id": "course:2392436_2812193", "type": "learningObjectInstance" },
+          { "id": "course:2392436_4393848", "type": "learningObjectInstance" }
+        ]
+      },
+      "skills": { "data": [{ "id": "course:2392436_116160", "type": "learningObjectSkill" }] }
+    }
+  },
+  "included": [
+    {
+      "id": "course:2392436_2809780",
+      "type": "learningObjectInstance",
+      "attributes": {
+        "dateCreated": "2021-08-09T13:00:18.000Z",
+        "isDefault": true,
+        "isFlexible": false,
+        "seatLimit": 5,
+        "state": "Active",
+        "localizedMetadata": [{ "locale": "en-US", "name": "Default instance" }]
+      },
+      "relationships": {
+        "l1FeedbackInfo": { "data": { "id": "course:2392436_2809780_l1Feedback", "type": "feedbackInfo" } },
+        "learningObject": { "data": { "id": "course:2392436", "type": "learningObject" } },
+        "loResources": {
+          "data": [
+            { "id": "course:2392436_2809780_7418256_0", "type": "learningObjectResource" },
+            { "id": "course:2392436_2809780_7418260_0", "type": "learningObjectResource" },
+            { "id": "course:2392436_2809780_7418258_0", "type": "learningObjectResource" },
+            { "id": "course:2392436_2809780_7418257_0", "type": "learningObjectResource" },
+            { "id": "course:2392436_2809780_7418259_0", "type": "learningObjectResource" },
+            { "id": "course:2392436_2809780_7422662_0", "type": "learningObjectResource" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "course:2392436_2812193",
+      "type": "learningObjectInstance",
+      "attributes": {
+        "dateCreated": "2021-08-11T14:19:05.000Z",
+        "isDefault": false,
+        "isFlexible": false,
+        "state": "Retired",
+        "localizedMetadata": [{ "locale": "en-US", "name": "Test" }]
+      },
+      "relationships": {
+        "l1FeedbackInfo": { "data": { "id": "course:2392436_2812193_l1Feedback", "type": "feedbackInfo" } },
+        "learningObject": { "data": { "id": "course:2392436", "type": "learningObject" } },
+        "loResources": {
+          "data": [
+            { "id": "course:2392436_2812193_7418256_0", "type": "learningObjectResource" },
+            { "id": "course:2392436_2812193_7418260_0", "type": "learningObjectResource" },
+            { "id": "course:2392436_2812193_7418258_0", "type": "learningObjectResource" },
+            { "id": "course:2392436_2812193_7418257_0", "type": "learningObjectResource" },
+            { "id": "course:2392436_2812193_7418259_0", "type": "learningObjectResource" },
+            { "id": "course:2392436_2812193_7422662_0", "type": "learningObjectResource" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "course:2392436_4393848",
+      "type": "learningObjectInstance",
+      "attributes": {
+        "dateCreated": "2022-02-16T11:31:41.000Z",
+        "isDefault": false,
+        "isFlexible": false,
+        "state": "Active",
+        "localizedMetadata": [{ "locale": "en-US", "name": "Test 2" }]
+      },
+      "relationships": {
+        "l1FeedbackInfo": { "data": { "id": "course:2392436_4393848_l1Feedback", "type": "feedbackInfo" } },
+        "learningObject": { "data": { "id": "course:2392436", "type": "learningObject" } },
+        "loResources": {
+          "data": [
+            { "id": "course:2392436_4393848_7418256_0", "type": "learningObjectResource" },
+            { "id": "course:2392436_4393848_7418260_0", "type": "learningObjectResource" },
+            { "id": "course:2392436_4393848_7418258_0", "type": "learningObjectResource" },
+            { "id": "course:2392436_4393848_7418257_0", "type": "learningObjectResource" },
+            { "id": "course:2392436_4393848_7418259_0", "type": "learningObjectResource" },
+            { "id": "course:2392436_4393848_7422662_0", "type": "learningObjectResource" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "course:2392436_2809780_7422662_0_136e491998d547adb029c93304bd3b6e_f1dd4a4033c14d6f88ea656806b6ce05",
+      "type": "learningObjectResourceGrade",
+      "attributes": { "duration": 0, "hasPassed": false, "progressPercent": 0, "score": 0 },
+      "relationships": {
+        "loResource": { "data": { "id": "course:2392436_2809780_7422662_0", "type": "learningObjectResource" } }
+      }
+    },
+    {
+      "id": "course:2392436_2809780_7418259_0_136e491998d547adb029c93304bd3b6e_38d74ccb54dc43d59f8c2090577d8527",
+      "type": "learningObjectResourceGrade",
+      "attributes": { "duration": 0, "hasPassed": false, "progressPercent": 0, "score": 0 },
+      "relationships": {
+        "loResource": { "data": { "id": "course:2392436_2809780_7418259_0", "type": "learningObjectResource" } }
+      }
+    },
+    {
+      "id": "course:2392436_2809780_7418257_0_136e491998d547adb029c93304bd3b6e_112ee349aa82403e93087feeff939072",
+      "type": "learningObjectResourceGrade",
+      "attributes": { "duration": 0, "hasPassed": false, "progressPercent": 0, "score": 0 },
+      "relationships": {
+        "loResource": { "data": { "id": "course:2392436_2809780_7418257_0", "type": "learningObjectResource" } }
+      }
+    },
+    {
+      "id": "course:2392436_2809780_7418258_0_136e491998d547adb029c93304bd3b6e_f830bf5976034c8c8ef2483c6adf60e9",
+      "type": "learningObjectResourceGrade",
+      "attributes": { "duration": 0, "hasPassed": false, "progressPercent": 0, "score": 0 },
+      "relationships": {
+        "loResource": { "data": { "id": "course:2392436_2809780_7418258_0", "type": "learningObjectResource" } }
+      }
+    },
+    {
+      "id": "course:2392436_2809780_7418256_0_136e491998d547adb029c93304bd3b6e_7e3f45d0f8784a308d86d0a1644e6bfe",
+      "type": "learningObjectResourceGrade",
+      "attributes": { "duration": 0, "hasPassed": false, "progressPercent": 0, "score": 0 },
+      "relationships": {
+        "loResource": { "data": { "id": "course:2392436_2809780_7418256_0", "type": "learningObjectResource" } }
+      }
+    },
+    {
+      "id": "course:2392436_2809780_7418260_0_136e491998d547adb029c93304bd3b6e_d2409257afdf472c81d36edf1ac12c93",
+      "type": "learningObjectResourceGrade",
+      "attributes": { "duration": 0, "hasPassed": false, "progressPercent": 0, "score": 0 },
+      "relationships": {
+        "loResource": { "data": { "id": "course:2392436_2809780_7418260_0", "type": "learningObjectResource" } }
+      }
+    },
+    {
+      "id": "5576733_1_en-US",
+      "type": "resource",
+      "attributes": {
+        "authorDesiredDuration": 1800,
+        "contentType": "PDF",
+        "contentZipSize": 134078,
+        "contentZipUrl": "https://cpcontents.adobe.com/protected/account/19360/resources/5988091/5988091/content_8f13e7751203404ebc7cf954f64876ac.pdf?cp_oauth_jwt=eyJhbGciOiJIUzI1NiJ9.eyJwIjoidXJsIiwicmFuZCI6IjkzOGY4MTkwLTlmYTUtNDY5MC1iMGU0LTAwNjAyNTMwNDA3MiIsInYiOiIxIiwib3JpZ2luYWxVcmxIYXNoIjoiNmIzZjM0M2MxZDY5YzVmYzEwMjkzZGQ4NzUyY2U0ZGYwOGYxNjY2OCIsImV4cCI6MTY0NTkwMzUyOSwicmlkIjoiNzI3NzA5MiIsImlhdCI6MTY0NTI5ODcyOSwiY2lkIjoiMTQxNCJ9.1H7xXjRjr2yDQbjFx9cxTN0K-HZTr6w7AYq7BNWlwSw",
+        "dateCreated": "2021-07-29T13:16:08.000Z",
+        "desiredDuration": 1800,
+        "hasQuiz": false,
+        "hasToc": false,
+        "internalResourceId": 5988091,
+        "isDefault": false,
+        "locale": "en-US",
+        "location": "https://cpcontents.adobe.com/protected/account/19360/resources/5988091/5988091/content_8f13e7751203404ebc7cf954f64876ac.pdf",
+        "name": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "onlyQuiz": false,
+        "reportingInfo": "{\"CCCriteria\":\"launch_content\",\"CCData\":{\"viewPercent\":0,\"quizData\":null},\"SCCriteria\":\"launch_content\",\"SCData\":{\"viewPercent\":0,\"quizData\":null}}",
+        "reportingType": "CAPI"
+      }
+    },
+    {
+      "id": "5574882_1_en-US",
+      "type": "resource",
+      "attributes": {
+        "authorDesiredDuration": 1800,
+        "contentType": "PDF",
+        "contentZipSize": 106978,
+        "contentZipUrl": "https://cpcontents.adobe.com/protected/account/19360/resources/5986064/5986064/content_30028c4dff9146a0b8cceffe1cd3ea77.pdf?cp_oauth_jwt=eyJhbGciOiJIUzI1NiJ9.eyJwIjoidXJsIiwicmFuZCI6Ijc4ZTU3NDJiLWI3MTMtNGFiZS05YTQ1LWE4YzdkYTg3NWIyYiIsInYiOiIxIiwib3JpZ2luYWxVcmxIYXNoIjoiZDc3ZTFlMjNjYmFhMDU5ZWU2NjhjNTJjYTcxYjU1Y2I5OGE3MDFlNSIsImV4cCI6MTY0NTkwMzUyOSwicmlkIjoiNzI3NzA5MiIsImlhdCI6MTY0NTI5ODcyOSwiY2lkIjoiMTQxNCJ9.0jshabWNx6a6uygEOmhjNbNTnYSPfPIeUpBZqj-hXro",
+        "dateCreated": "2021-07-28T08:35:09.000Z",
+        "desiredDuration": 1800,
+        "hasQuiz": false,
+        "hasToc": false,
+        "internalResourceId": 5986064,
+        "isDefault": false,
+        "locale": "en-US",
+        "location": "https://cpcontents.adobe.com/protected/account/19360/resources/5986064/5986064/content_30028c4dff9146a0b8cceffe1cd3ea77.pdf",
+        "name": "12 core: VILT",
+        "onlyQuiz": false,
+        "reportingInfo": "{\"CCCriteria\":\"launch_content\",\"CCData\":{\"viewPercent\":0,\"quizData\":null},\"SCCriteria\":\"launch_content\",\"SCData\":{\"viewPercent\":0,\"quizData\":null}}",
+        "reportingType": "CAPI"
+      }
+    },
+    {
+      "id": "course:2392436_2809780_7422662_0_resource",
+      "type": "resource",
+      "attributes": {
+        "avatarUrls": [
+          "https://cpcontents.adobe.com/protected/account/19360/accountassets/19360/userassets/13932415/1644322302066_gold-badge-5392868.jpg?cp_oauth_jwt=eyJhbGciOiJIUzI1NiJ9.eyJwIjoidXJsIiwicmFuZCI6IjQ1NWMyYzU5LWM0ZDctNDIxZS05N2MwLTBkODNlY2RjMmYxYSIsInYiOiIxIiwib3JpZ2luYWxVcmxIYXNoIjoiZGE3NzUwMTdlYjQ2M2M5OTY2OTg5MmRmZWY2NWI1Y2Q3ZjE4OWQ2NSIsImV4cCI6MTY0NTkwMzUyOSwicmlkIjoiNzI3NzA5MiIsImlhdCI6MTY0NTI5ODcyOSwiY2lkIjoiMTQxNCJ9.uqXaHloXmnOk6YkwZd7r-G8BpUjjeREZAWrqWOKFVCA"
+        ],
+        "completionDeadline": "2021-08-31T09:00:00.000Z",
+        "contentType": "Classroom",
+        "dateStart": "2021-08-31T08:00:00.000Z",
+        "desiredDuration": 3600,
+        "hasQuiz": false,
+        "hasToc": false,
+        "instructorNames": ["Maryna Lebiedieva "],
+        "isDefault": true,
+        "locale": "en-US",
+        "name": "Test",
+        "onlyQuiz": false,
+        "reportingType": "NONE",
+        "seatLimit": 5
+      }
+    },
+    {
+      "id": "course:2392436_2812193_7422662_0_resource",
+      "type": "resource",
+      "attributes": {
+        "avatarUrls": [],
+        "contentType": "Classroom",
+        "desiredDuration": 0,
+        "hasQuiz": false,
+        "hasToc": false,
+        "instructorNames": [],
+        "isDefault": true,
+        "locale": "en-US",
+        "name": "Test",
+        "onlyQuiz": false,
+        "reportingType": "NONE"
+      }
+    },
+    {
+      "id": "5574883_1_en-US",
+      "type": "resource",
+      "attributes": {
+        "authorDesiredDuration": 1800,
+        "contentType": "PDF",
+        "contentZipSize": 194406,
+        "contentZipUrl": "https://cpcontents.adobe.com/protected/account/19360/resources/5986065/5986065/content_640737343a994cbb9de53d2094488257.pdf?cp_oauth_jwt=eyJhbGciOiJIUzI1NiJ9.eyJwIjoidXJsIiwicmFuZCI6IjAxNTg2NmYxLTI2NGQtNDQ0YS04ZTk3LTU5MDZjNTc2NWE2NSIsInYiOiIxIiwib3JpZ2luYWxVcmxIYXNoIjoiZmRhZmYwYzg3MjJkNmY2ZTIwZTQ0MWZjN2M3OTQ2ZjkwYjE2ZGQ2YiIsImV4cCI6MTY0NTkwMzUyOSwicmlkIjoiNzI3NzA5MiIsImlhdCI6MTY0NTI5ODcyOSwiY2lkIjoiMTQxNCJ9.a7_cVarokej9cscRny8waBpWJkROj5Ex8pksM2_nrJc",
+        "dateCreated": "2021-07-28T08:35:09.000Z",
+        "desiredDuration": 1800,
+        "hasQuiz": false,
+        "hasToc": false,
+        "internalResourceId": 5986065,
+        "isDefault": false,
+        "locale": "en-US",
+        "location": "https://cpcontents.adobe.com/protected/account/19360/resources/5986065/5986065/content_640737343a994cbb9de53d2094488257.pdf",
+        "name": "13 core: VilT",
+        "onlyQuiz": false,
+        "reportingInfo": "{\"CCCriteria\":\"launch_content\",\"CCData\":{\"viewPercent\":0,\"quizData\":null},\"SCCriteria\":\"launch_content\",\"SCData\":{\"viewPercent\":0,\"quizData\":null}}",
+        "reportingType": "CAPI"
+      }
+    },
+    {
+      "id": "5608171_1_en-US",
+      "type": "resource",
+      "attributes": {
+        "authorDesiredDuration": 600,
+        "contentType": "PDF",
+        "contentZipSize": 581407,
+        "contentZipUrl": "https://cpcontents.adobe.com/protected/account/19360/resources/6020406/6020406/content_6e232e1d8d0d471e8e2ff58fb4a71f96.pdf?cp_oauth_jwt=eyJhbGciOiJIUzI1NiJ9.eyJwIjoidXJsIiwicmFuZCI6IjgzYjY2MmQ4LWQ0MWMtNDI2MC05MDlhLWNhNzViODM4NTRmMyIsInYiOiIxIiwib3JpZ2luYWxVcmxIYXNoIjoiN2NiYzA3NGM0MmJlMDMzYjlkY2IzZGMxZmZiNTdmNWE3NTM1NGU5NSIsImV4cCI6MTY0NTkwMzUyOSwicmlkIjoiNzI3NzA5MiIsImlhdCI6MTY0NTI5ODcyOSwiY2lkIjoiMTQxNCJ9.D6fEHc4-QfAwNMAhXD1r43dNv4xp6HXyzEbSp92AO8I",
+        "dateCreated": "2021-08-06T08:46:20.000Z",
+        "desiredDuration": 600,
+        "hasQuiz": false,
+        "hasToc": false,
+        "internalResourceId": 6020406,
+        "isDefault": false,
+        "locale": "en-US",
+        "location": "https://cpcontents.adobe.com/protected/account/19360/resources/6020406/6020406/content_6e232e1d8d0d471e8e2ff58fb4a71f96.pdf",
+        "name": "Olga's Test Content (with description)",
+        "onlyQuiz": false,
+        "reportingInfo": "{\"CCCriteria\":\"launch_content\",\"SCCriteria\":\"launch_content\",\"CCData\":{\"viewPercent\":\"0\",\"quizData\":\"\"},\"SCData\":{\"viewPercent\":\"0\",\"quizData\":\"\"}}",
+        "reportingType": "CAPI"
+      }
+    },
+    {
+      "id": "5574873_1_en-US",
+      "type": "resource",
+      "attributes": {
+        "authorDesiredDuration": 240,
+        "contentType": "PDF",
+        "contentZipSize": 3083430,
+        "contentZipUrl": "https://cpcontents.adobe.com/protected/account/19360/resources/5986055/5986055/content_85985564c9f04aebb8a1a9b1f89eda14.pdf?cp_oauth_jwt=eyJhbGciOiJIUzI1NiJ9.eyJwIjoidXJsIiwicmFuZCI6IjNhMWIyN2VlLTRhZWQtNDA5Zi1hMjJkLWMyMWRhNmZiMWVkYyIsInYiOiIxIiwib3JpZ2luYWxVcmxIYXNoIjoiMjgwNWQ3MmEwNzI0ZDNjMDNlYmMxODlkMjhmNjVmZTI1N2QwZmE4YSIsImV4cCI6MTY0NTkwMzUyOSwicmlkIjoiNzI3NzA5MiIsImlhdCI6MTY0NTI5ODcyOSwiY2lkIjoiMTQxNCJ9.JwbGRGT2PbzRZB8F1zcw9Gf1cCXT2lbkAPO4AbARyBQ",
+        "dateCreated": "2021-07-28T08:35:08.000Z",
+        "desiredDuration": 240,
+        "hasQuiz": false,
+        "hasToc": false,
+        "internalResourceId": 5986055,
+        "isDefault": false,
+        "locale": "en-US",
+        "location": "https://cpcontents.adobe.com/protected/account/19360/resources/5986055/5986055/content_85985564c9f04aebb8a1a9b1f89eda14.pdf",
+        "name": "3 core: inperson",
+        "onlyQuiz": false,
+        "reportingInfo": "{\"CCCriteria\":\"launch_content\",\"CCData\":{\"viewPercent\":0,\"quizData\":null},\"SCCriteria\":\"launch_content\",\"SCData\":{\"viewPercent\":0,\"quizData\":null}}",
+        "reportingType": "CAPI"
+      }
+    },
+    {
+      "id": "course:2392436_4393848_7422662_0_resource",
+      "type": "resource",
+      "attributes": {
+        "avatarUrls": [],
+        "contentType": "Classroom",
+        "desiredDuration": 0,
+        "hasQuiz": false,
+        "hasToc": false,
+        "instructorNames": [],
+        "isDefault": true,
+        "locale": "en-US",
+        "name": "Test",
+        "onlyQuiz": false,
+        "reportingType": "NONE"
+      }
+    },
+    {
+      "id": "course:2392436_116160",
+      "type": "learningObjectSkill",
+      "attributes": { "credits": 15, "learningObjectId": "course:2392436" },
+      "relationships": {
+        "learningObject": { "data": { "id": "course:2392436", "type": "learningObject" } },
+        "skillLevel": { "data": { "id": "116160_1", "type": "skillLevel" } }
+      }
+    },
+    {
+      "id": "course:2392436_4393848_7418256_0",
+      "type": "learningObjectResource",
+      "attributes": {
+        "externalReporting": false,
+        "loResourceType": "Content",
+        "mandatory": false,
+        "multipleAttemptEnabled": false,
+        "resourceType": "Elearning",
+        "submissionEnabled": false,
+        "version": 1,
+        "localizedMetadata": [
+          {
+            "description": "Quickly utilize end-to-end infomediaries via long-term high-impact opportunities. Assertively pursue holistic ideas with e-business platforms. Synergistically restore integrated products vis-a-vis principle-centered data. Holisticly deploy high standards in imperatives without cross-media core competencies. Energistically recaptiualize sustainable opportunities without user-centric collaboration a",
+            "locale": "en-US",
+            "name": "Olga's Test Content (with description)"
+          }
+        ]
+      },
+      "relationships": {
+        "learningObject": { "data": { "id": "course:2392436", "type": "learningObject" } },
+        "loInstance": { "data": { "id": "course:2392436_4393848", "type": "learningObjectInstance" } },
+        "resources": { "data": [{ "id": "5608171_1_en-US", "type": "resource" }] }
+      }
+    },
+    {
+      "id": "course:2392436_2812193_7418256_0",
+      "type": "learningObjectResource",
+      "attributes": {
+        "externalReporting": false,
+        "loResourceType": "Content",
+        "mandatory": false,
+        "multipleAttemptEnabled": false,
+        "resourceType": "Elearning",
+        "submissionEnabled": false,
+        "version": 1,
+        "localizedMetadata": [
+          {
+            "description": "Quickly utilize end-to-end infomediaries via long-term high-impact opportunities. Assertively pursue holistic ideas with e-business platforms. Synergistically restore integrated products vis-a-vis principle-centered data. Holisticly deploy high standards in imperatives without cross-media core competencies. Energistically recaptiualize sustainable opportunities without user-centric collaboration a",
+            "locale": "en-US",
+            "name": "Olga's Test Content (with description)"
+          }
+        ]
+      },
+      "relationships": {
+        "learningObject": { "data": { "id": "course:2392436", "type": "learningObject" } },
+        "loInstance": { "data": { "id": "course:2392436_2812193", "type": "learningObjectInstance" } },
+        "resources": { "data": [{ "id": "5608171_1_en-US", "type": "resource" }] }
+      }
+    },
+    {
+      "id": "course:2392436_2809780_7418256_0",
+      "type": "learningObjectResource",
+      "attributes": {
+        "externalReporting": false,
+        "loResourceType": "Content",
+        "mandatory": false,
+        "multipleAttemptEnabled": false,
+        "resourceType": "Elearning",
+        "submissionEnabled": false,
+        "version": 1,
+        "localizedMetadata": [
+          {
+            "description": "Quickly utilize end-to-end infomediaries via long-term high-impact opportunities. Assertively pursue holistic ideas with e-business platforms. Synergistically restore integrated products vis-a-vis principle-centered data. Holisticly deploy high standards in imperatives without cross-media core competencies. Energistically recaptiualize sustainable opportunities without user-centric collaboration a",
+            "locale": "en-US",
+            "name": "Olga's Test Content (with description)"
+          }
+        ]
+      },
+      "relationships": {
+        "learningObject": { "data": { "id": "course:2392436", "type": "learningObject" } },
+        "loInstance": { "data": { "id": "course:2392436_2809780", "type": "learningObjectInstance" } },
+        "resources": { "data": [{ "id": "5608171_1_en-US", "type": "resource" }] }
+      }
+    },
+    {
+      "id": "course:2392436_4393848_7418257_0",
+      "type": "learningObjectResource",
+      "attributes": {
+        "externalReporting": false,
+        "loResourceType": "Content",
+        "mandatory": false,
+        "multipleAttemptEnabled": false,
+        "resourceType": "Elearning",
+        "submissionEnabled": false,
+        "version": 1,
+        "localizedMetadata": [{ "description": "VILT", "locale": "en-US", "name": "12 core: VILT" }]
+      },
+      "relationships": {
+        "learningObject": { "data": { "id": "course:2392436", "type": "learningObject" } },
+        "loInstance": { "data": { "id": "course:2392436_4393848", "type": "learningObjectInstance" } },
+        "resources": { "data": [{ "id": "5574882_1_en-US", "type": "resource" }] }
+      }
+    },
+    {
+      "id": "course:2392436_2812193_7418257_0",
+      "type": "learningObjectResource",
+      "attributes": {
+        "externalReporting": false,
+        "loResourceType": "Content",
+        "mandatory": false,
+        "multipleAttemptEnabled": false,
+        "resourceType": "Elearning",
+        "submissionEnabled": false,
+        "version": 1,
+        "localizedMetadata": [{ "description": "VILT", "locale": "en-US", "name": "12 core: VILT" }]
+      },
+      "relationships": {
+        "learningObject": { "data": { "id": "course:2392436", "type": "learningObject" } },
+        "loInstance": { "data": { "id": "course:2392436_2812193", "type": "learningObjectInstance" } },
+        "resources": { "data": [{ "id": "5574882_1_en-US", "type": "resource" }] }
+      }
+    },
+    {
+      "id": "course:2392436_2809780_7418257_0",
+      "type": "learningObjectResource",
+      "attributes": {
+        "externalReporting": false,
+        "loResourceType": "Content",
+        "mandatory": false,
+        "multipleAttemptEnabled": false,
+        "resourceType": "Elearning",
+        "submissionEnabled": false,
+        "version": 1,
+        "localizedMetadata": [{ "description": "VILT", "locale": "en-US", "name": "12 core: VILT" }]
+      },
+      "relationships": {
+        "learningObject": { "data": { "id": "course:2392436", "type": "learningObject" } },
+        "loInstance": { "data": { "id": "course:2392436_2809780", "type": "learningObjectInstance" } },
+        "resources": { "data": [{ "id": "5574882_1_en-US", "type": "resource" }] }
+      }
+    },
+    {
+      "id": "course:2392436_4393848_7418258_0",
+      "type": "learningObjectResource",
+      "attributes": {
+        "externalReporting": false,
+        "loResourceType": "Content",
+        "mandatory": false,
+        "multipleAttemptEnabled": false,
+        "resourceType": "Elearning",
+        "submissionEnabled": false,
+        "version": 1,
+        "localizedMetadata": [{ "description": "VilT", "locale": "en-US", "name": "13 core: VilT" }]
+      },
+      "relationships": {
+        "learningObject": { "data": { "id": "course:2392436", "type": "learningObject" } },
+        "loInstance": { "data": { "id": "course:2392436_4393848", "type": "learningObjectInstance" } },
+        "resources": { "data": [{ "id": "5574883_1_en-US", "type": "resource" }] }
+      }
+    },
+    {
+      "id": "course:2392436_2812193_7418258_0",
+      "type": "learningObjectResource",
+      "attributes": {
+        "externalReporting": false,
+        "loResourceType": "Content",
+        "mandatory": false,
+        "multipleAttemptEnabled": false,
+        "resourceType": "Elearning",
+        "submissionEnabled": false,
+        "version": 1,
+        "localizedMetadata": [{ "description": "VilT", "locale": "en-US", "name": "13 core: VilT" }]
+      },
+      "relationships": {
+        "learningObject": { "data": { "id": "course:2392436", "type": "learningObject" } },
+        "loInstance": { "data": { "id": "course:2392436_2812193", "type": "learningObjectInstance" } },
+        "resources": { "data": [{ "id": "5574883_1_en-US", "type": "resource" }] }
+      }
+    },
+    {
+      "id": "course:2392436_2809780_7418258_0",
+      "type": "learningObjectResource",
+      "attributes": {
+        "externalReporting": false,
+        "loResourceType": "Content",
+        "mandatory": false,
+        "multipleAttemptEnabled": false,
+        "resourceType": "Elearning",
+        "submissionEnabled": false,
+        "version": 1,
+        "localizedMetadata": [{ "description": "VilT", "locale": "en-US", "name": "13 core: VilT" }]
+      },
+      "relationships": {
+        "learningObject": { "data": { "id": "course:2392436", "type": "learningObject" } },
+        "loInstance": { "data": { "id": "course:2392436_2809780", "type": "learningObjectInstance" } },
+        "resources": { "data": [{ "id": "5574883_1_en-US", "type": "resource" }] }
+      }
+    },
+    {
+      "id": "course:2392436_4393848_7418259_0",
+      "type": "learningObjectResource",
+      "attributes": {
+        "externalReporting": false,
+        "loResourceType": "Content",
+        "mandatory": false,
+        "multipleAttemptEnabled": false,
+        "resourceType": "Elearning",
+        "submissionEnabled": false,
+        "version": 1,
+        "localizedMetadata": [{ "description": "inperson", "locale": "en-US", "name": "3 core: inperson" }]
+      },
+      "relationships": {
+        "learningObject": { "data": { "id": "course:2392436", "type": "learningObject" } },
+        "loInstance": { "data": { "id": "course:2392436_4393848", "type": "learningObjectInstance" } },
+        "resources": { "data": [{ "id": "5574873_1_en-US", "type": "resource" }] }
+      }
+    },
+    {
+      "id": "course:2392436_2812193_7418259_0",
+      "type": "learningObjectResource",
+      "attributes": {
+        "externalReporting": false,
+        "loResourceType": "Content",
+        "mandatory": false,
+        "multipleAttemptEnabled": false,
+        "resourceType": "Elearning",
+        "submissionEnabled": false,
+        "version": 1,
+        "localizedMetadata": [{ "description": "inperson", "locale": "en-US", "name": "3 core: inperson" }]
+      },
+      "relationships": {
+        "learningObject": { "data": { "id": "course:2392436", "type": "learningObject" } },
+        "loInstance": { "data": { "id": "course:2392436_2812193", "type": "learningObjectInstance" } },
+        "resources": { "data": [{ "id": "5574873_1_en-US", "type": "resource" }] }
+      }
+    },
+    {
+      "id": "course:2392436_2809780_7418259_0",
+      "type": "learningObjectResource",
+      "attributes": {
+        "externalReporting": false,
+        "loResourceType": "Content",
+        "mandatory": false,
+        "multipleAttemptEnabled": false,
+        "resourceType": "Elearning",
+        "submissionEnabled": false,
+        "version": 1,
+        "localizedMetadata": [{ "description": "inperson", "locale": "en-US", "name": "3 core: inperson" }]
+      },
+      "relationships": {
+        "learningObject": { "data": { "id": "course:2392436", "type": "learningObject" } },
+        "loInstance": { "data": { "id": "course:2392436_2809780", "type": "learningObjectInstance" } },
+        "resources": { "data": [{ "id": "5574873_1_en-US", "type": "resource" }] }
+      }
+    },
+    {
+      "id": "course:2392436_4393848_7418260_0",
+      "type": "learningObjectResource",
+      "attributes": {
+        "externalReporting": false,
+        "loResourceType": "Content",
+        "mandatory": true,
+        "multipleAttemptEnabled": false,
+        "resourceType": "Elearning",
+        "submissionEnabled": false,
+        "version": 1,
+        "localizedMetadata": [
+          {
+            "description": "in-person",
+            "locale": "en-US",
+            "name": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          }
+        ]
+      },
+      "relationships": {
+        "learningObject": { "data": { "id": "course:2392436", "type": "learningObject" } },
+        "loInstance": { "data": { "id": "course:2392436_4393848", "type": "learningObjectInstance" } },
+        "resources": { "data": [{ "id": "5576733_1_en-US", "type": "resource" }] }
+      }
+    },
+    {
+      "id": "course:2392436_2812193_7418260_0",
+      "type": "learningObjectResource",
+      "attributes": {
+        "externalReporting": false,
+        "loResourceType": "Content",
+        "mandatory": true,
+        "multipleAttemptEnabled": false,
+        "resourceType": "Elearning",
+        "submissionEnabled": false,
+        "version": 1,
+        "localizedMetadata": [
+          {
+            "description": "in-person",
+            "locale": "en-US",
+            "name": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          }
+        ]
+      },
+      "relationships": {
+        "learningObject": { "data": { "id": "course:2392436", "type": "learningObject" } },
+        "loInstance": { "data": { "id": "course:2392436_2812193", "type": "learningObjectInstance" } },
+        "resources": { "data": [{ "id": "5576733_1_en-US", "type": "resource" }] }
+      }
+    },
+    {
+      "id": "course:2392436_2809780_7418260_0",
+      "type": "learningObjectResource",
+      "attributes": {
+        "externalReporting": false,
+        "loResourceType": "Content",
+        "mandatory": true,
+        "multipleAttemptEnabled": false,
+        "resourceType": "Elearning",
+        "submissionEnabled": false,
+        "version": 1,
+        "localizedMetadata": [
+          {
+            "description": "in-person",
+            "locale": "en-US",
+            "name": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          }
+        ]
+      },
+      "relationships": {
+        "learningObject": { "data": { "id": "course:2392436", "type": "learningObject" } },
+        "loInstance": { "data": { "id": "course:2392436_2809780", "type": "learningObjectInstance" } },
+        "resources": { "data": [{ "id": "5576733_1_en-US", "type": "resource" }] }
+      }
+    },
+    {
+      "id": "course:2392436_4393848_7422662_0",
+      "type": "learningObjectResource",
+      "attributes": {
+        "externalReporting": false,
+        "loResourceType": "Content",
+        "mandatory": false,
+        "multipleAttemptEnabled": false,
+        "resourceType": "Classroom",
+        "submissionEnabled": false,
+        "localizedMetadata": [{ "description": "", "locale": "en-US", "name": "Test" }]
+      },
+      "relationships": {
+        "learningObject": { "data": { "id": "course:2392436", "type": "learningObject" } },
+        "loInstance": { "data": { "id": "course:2392436_4393848", "type": "learningObjectInstance" } },
+        "resources": { "data": [{ "id": "course:2392436_4393848_7422662_0_resource", "type": "resource" }] }
+      }
+    },
+    {
+      "id": "course:2392436_2812193_7422662_0",
+      "type": "learningObjectResource",
+      "attributes": {
+        "externalReporting": false,
+        "loResourceType": "Content",
+        "mandatory": false,
+        "multipleAttemptEnabled": false,
+        "resourceType": "Classroom",
+        "submissionEnabled": false,
+        "localizedMetadata": [{ "description": "", "locale": "en-US", "name": "Test" }]
+      },
+      "relationships": {
+        "learningObject": { "data": { "id": "course:2392436", "type": "learningObject" } },
+        "loInstance": { "data": { "id": "course:2392436_2812193", "type": "learningObjectInstance" } },
+        "resources": { "data": [{ "id": "course:2392436_2812193_7422662_0_resource", "type": "resource" }] }
+      }
+    },
+    {
+      "id": "course:2392436_2809780_7422662_0",
+      "type": "learningObjectResource",
+      "attributes": {
+        "externalReporting": false,
+        "loResourceType": "Content",
+        "mandatory": false,
+        "multipleAttemptEnabled": false,
+        "resourceType": "Classroom",
+        "submissionEnabled": false,
+        "localizedMetadata": [{ "description": "", "locale": "en-US", "name": "Test" }]
+      },
+      "relationships": {
+        "learningObject": { "data": { "id": "course:2392436", "type": "learningObject" } },
+        "loInstance": { "data": { "id": "course:2392436_2809780", "type": "learningObjectInstance" } },
+        "resources": { "data": [{ "id": "course:2392436_2809780_7422662_0_resource", "type": "resource" }] }
+      }
+    },
+    {
+      "id": "course:2392436_2809780_12528945",
+      "type": "learningObjectInstanceEnrollment",
+      "attributes": {
+        "dateEnrolled": "2022-02-19T19:25:28.000Z",
+        "enrollmentSource": "SELF_ENROLL",
+        "hasPassed": false,
+        "progressPercent": 0,
+        "score": 0,
+        "state": "ENROLLED"
+      },
+      "relationships": {
+        "learner": { "data": { "id": "12528945", "type": "user" } },
+        "learningObject": { "data": { "id": "course:2392436", "type": "learningObject" } },
+        "loInstance": { "data": { "id": "course:2392436_2809780", "type": "learningObjectInstance" } },
+        "loResourceGrades": {
+          "data": [
+            {
+              "id": "course:2392436_2809780_7418256_0_136e491998d547adb029c93304bd3b6e_7e3f45d0f8784a308d86d0a1644e6bfe",
+              "type": "learningObjectResourceGrade"
+            },
+            {
+              "id": "course:2392436_2809780_7418257_0_136e491998d547adb029c93304bd3b6e_112ee349aa82403e93087feeff939072",
+              "type": "learningObjectResourceGrade"
+            },
+            {
+              "id": "course:2392436_2809780_7418258_0_136e491998d547adb029c93304bd3b6e_f830bf5976034c8c8ef2483c6adf60e9",
+              "type": "learningObjectResourceGrade"
+            },
+            {
+              "id": "course:2392436_2809780_7418259_0_136e491998d547adb029c93304bd3b6e_38d74ccb54dc43d59f8c2090577d8527",
+              "type": "learningObjectResourceGrade"
+            },
+            {
+              "id": "course:2392436_2809780_7418260_0_136e491998d547adb029c93304bd3b6e_d2409257afdf472c81d36edf1ac12c93",
+              "type": "learningObjectResourceGrade"
+            },
+            {
+              "id": "course:2392436_2809780_7422662_0_136e491998d547adb029c93304bd3b6e_f1dd4a4033c14d6f88ea656806b6ce05",
+              "type": "learningObjectResourceGrade"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

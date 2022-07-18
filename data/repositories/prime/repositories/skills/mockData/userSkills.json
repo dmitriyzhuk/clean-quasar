@@ -1,0 +1,441 @@
+{
+  "links": {
+    "self": "https://captivateprime.adobe.com/primeapi/v2/users/12528945/userSkills?page[offset]=0&page[limit]=10&include=skillLevel,skillLevel.skill"
+  },
+  "data": [
+    {
+      "id": "12528945_116157_1",
+      "type": "userSkill",
+      "attributes": {
+        "dateAchieved": "2021-03-22T03:25:25.000Z",
+        "dateCreated": "2021-03-22T03:25:10.000Z",
+        "pointsEarned": 140
+      },
+      "relationships": {
+        "learnerBadge": {
+          "data": {
+            "id": "12528945_211320_COMPETENCY_116157_1",
+            "type": "userBadge"
+          }
+        },
+        "learningObject": {
+          "data": [
+            { "id": "course:1789871", "type": "learningObject" },
+            { "id": "course:1789882", "type": "learningObject" }
+          ]
+        },
+        "skill": { "data": { "id": "116157", "type": "skill" } },
+        "skillLevel": {
+          "data": { "id": "116157_1", "type": "skillLevel" }
+        },
+        "user": { "data": { "id": "12528945", "type": "user" } }
+      }
+    },
+    {
+      "id": "12528945_22230_1",
+      "type": "userSkill",
+      "attributes": {
+        "dateAchieved": "2021-09-03T07:00:41.000Z",
+        "dateCreated": "2021-05-05T21:29:18.000Z",
+        "pointsEarned": 2
+      },
+      "relationships": {
+        "learningObject": {
+          "data": [
+            { "id": "course:1673115", "type": "learningObject" },
+            { "id": "course:1673140", "type": "learningObject" },
+            { "id": "course:1802617", "type": "learningObject" },
+            { "id": "course:1811719", "type": "learningObject" },
+            { "id": "course:1811828", "type": "learningObject" },
+            { "id": "course:2218414", "type": "learningObject" },
+            { "id": "course:2348396", "type": "learningObject" },
+            { "id": "course:2392301", "type": "learningObject" },
+            { "id": "course:2447791", "type": "learningObject" },
+            { "id": "course:2832023", "type": "learningObject" },
+            { "id": "course:3158440", "type": "learningObject" }
+          ]
+        },
+        "skill": { "data": { "id": "22230", "type": "skill" } },
+        "skillLevel": {
+          "data": { "id": "22230_1", "type": "skillLevel" }
+        },
+        "user": { "data": { "id": "12528945", "type": "user" } }
+      }
+    },
+    {
+      "id": "12528945_113169_1",
+      "type": "userSkill",
+      "attributes": {
+        "dateAchieved": "2021-11-18T17:23:04.000Z",
+        "dateCreated": "2021-11-12T09:34:49.000Z",
+        "pointsEarned": 1
+      },
+      "relationships": {
+        "learnerBadge": {
+          "data": {
+            "id": "12528945_211317_COMPETENCY_113169_1",
+            "type": "userBadge"
+          }
+        },
+        "learningObject": {
+          "data": [{ "id": "course:2831909", "type": "learningObject" }]
+        },
+        "skill": { "data": { "id": "113169", "type": "skill" } },
+        "skillLevel": {
+          "data": { "id": "113169_1", "type": "skillLevel" }
+        },
+        "user": { "data": { "id": "12528945", "type": "user" } }
+      }
+    },
+    {
+      "id": "12528945_116159_1",
+      "type": "userSkill",
+      "attributes": {
+        "dateAchieved": "2021-11-18T17:26:27.000Z",
+        "dateCreated": "2021-08-13T01:15:04.000Z",
+        "pointsEarned": 71
+      },
+      "relationships": {
+        "learningObject": {
+          "data": [
+            { "id": "course:2563594", "type": "learningObject" },
+            { "id": "course:2831910", "type": "learningObject" },
+            { "id": "course:3004357", "type": "learningObject" },
+            { "id": "course:3004358", "type": "learningObject" }
+          ]
+        },
+        "skill": { "data": { "id": "116159", "type": "skill" } },
+        "skillLevel": {
+          "data": { "id": "116159_1", "type": "skillLevel" }
+        },
+        "user": { "data": { "id": "12528945", "type": "user" } }
+      }
+    },
+    {
+      "id": "12528945_239384_1",
+      "type": "userSkill",
+      "attributes": {
+        "dateAchieved": "2021-11-23T09:14:03.000Z",
+        "dateCreated": "2021-11-23T09:11:41.000Z",
+        "pointsEarned": 40
+      },
+      "relationships": {
+        "learningObject": {
+          "data": [
+            { "id": "course:2746761", "type": "learningObject" },
+            { "id": "course:2831912", "type": "learningObject" },
+            { "id": "course:2831927", "type": "learningObject" },
+            { "id": "course:2831928", "type": "learningObject" },
+            { "id": "course:2831929", "type": "learningObject" },
+            { "id": "course:2831930", "type": "learningObject" },
+            { "id": "course:2832022", "type": "learningObject" },
+            { "id": "course:2832024", "type": "learningObject" },
+            { "id": "course:3158441", "type": "learningObject" }
+          ]
+        },
+        "skill": { "data": { "id": "239384", "type": "skill" } },
+        "skillLevel": {
+          "data": { "id": "239384_1", "type": "skillLevel" }
+        },
+        "user": { "data": { "id": "12528945", "type": "user" } }
+      }
+    },
+    {
+      "id": "12528945_132754_1",
+      "type": "userSkill",
+      "attributes": {
+        "dateAchieved": "2021-11-28T12:08:35.000Z",
+        "dateCreated": "2021-08-09T09:28:45.000Z",
+        "pointsEarned": 6
+      },
+      "relationships": {
+        "learnerBadge": {
+          "data": {
+            "id": "12528945_937533_COMPETENCY_132754_1",
+            "type": "userBadge"
+          }
+        },
+        "learningObject": {
+          "data": [
+            { "id": "course:2256512", "type": "learningObject" },
+            { "id": "course:2388133", "type": "learningObject" },
+            { "id": "course:2392300", "type": "learningObject" },
+            { "id": "course:2423311", "type": "learningObject" },
+            { "id": "course:2447012", "type": "learningObject" },
+            { "id": "course:2832028", "type": "learningObject" },
+            { "id": "course:2832044", "type": "learningObject" },
+            { "id": "course:2832046", "type": "learningObject" },
+            { "id": "course:2832047", "type": "learningObject" }
+          ]
+        },
+        "skill": { "data": { "id": "132754", "type": "skill" } },
+        "skillLevel": {
+          "data": { "id": "132754_1", "type": "skillLevel" }
+        },
+        "user": { "data": { "id": "12528945", "type": "user" } }
+      }
+    },
+    {
+      "id": "12528945_113605_1",
+      "type": "userSkill",
+      "attributes": {
+        "dateCreated": "2021-10-21T13:21:03.000Z",
+        "pointsEarned": 1
+      },
+      "relationships": {
+        "learningObject": {
+          "data": [{ "id": "course:2389512", "type": "learningObject" }]
+        },
+        "skill": { "data": { "id": "113605", "type": "skill" } },
+        "skillLevel": {
+          "data": { "id": "113605_1", "type": "skillLevel" }
+        },
+        "user": { "data": { "id": "12528945", "type": "user" } }
+      }
+    },
+    {
+      "id": "12528945_123799_1",
+      "type": "userSkill",
+      "attributes": {
+        "dateCreated": "2021-07-26T22:48:17.000Z",
+        "pointsEarned": 0
+      },
+      "relationships": {
+        "learningObject": {
+          "data": [
+            { "id": "course:2335768", "type": "learningObject" },
+            { "id": "course:2450164", "type": "learningObject" }
+          ]
+        },
+        "skill": { "data": { "id": "123799", "type": "skill" } },
+        "skillLevel": {
+          "data": { "id": "123799_1", "type": "skillLevel" }
+        },
+        "user": { "data": { "id": "12528945", "type": "user" } }
+      }
+    },
+    {
+      "id": "12528945_249496_1",
+      "type": "userSkill",
+      "attributes": {
+        "dateCreated": "2021-11-09T08:52:37.000Z",
+        "pointsEarned": 0
+      },
+      "relationships": {
+        "learningObject": {
+          "data": [
+            { "id": "course:2994520", "type": "learningObject" },
+            { "id": "course:2995105", "type": "learningObject" },
+            { "id": "course:3002839", "type": "learningObject" },
+            { "id": "course:3002901", "type": "learningObject" },
+            { "id": "course:3004349", "type": "learningObject" }
+          ]
+        },
+        "skill": { "data": { "id": "249496", "type": "skill" } },
+        "skillLevel": {
+          "data": { "id": "249496_1", "type": "skillLevel" }
+        },
+        "user": { "data": { "id": "12528945", "type": "user" } }
+      }
+    }
+  ],
+  "included": [
+    {
+      "id": "22230",
+      "type": "skill",
+      "attributes": { "name": "General", "state": "Active" },
+      "relationships": {
+        "levels": {
+          "data": [
+            { "id": "22230_1", "type": "skillLevel" },
+            { "id": "22230_2", "type": "skillLevel" },
+            { "id": "22230_3", "type": "skillLevel" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "113169",
+      "type": "skill",
+      "attributes": {
+        "name": "Julia Skill for Notes",
+        "state": "Active"
+      },
+      "relationships": {
+        "levels": {
+          "data": [
+            { "id": "113169_1", "type": "skillLevel" },
+            { "id": "113169_2", "type": "skillLevel" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "113605",
+      "type": "skill",
+      "attributes": { "name": "Kate test 1", "state": "Active" },
+      "relationships": {
+        "levels": {
+          "data": [{ "id": "113605_1", "type": "skillLevel" }]
+        }
+      }
+    },
+    {
+      "id": "116157",
+      "type": "skill",
+      "attributes": {
+        "description": "Complete mandatory courses depend on the employee’s role in the store (i.e. In-Store Customer Service Representative, Delivery Expert)",
+        "name": "Dominos Trainee",
+        "state": "Active"
+      },
+      "relationships": {
+        "levels": {
+          "data": [
+            { "id": "116157_1", "type": "skillLevel" },
+            { "id": "116157_2", "type": "skillLevel" },
+            { "id": "116157_3", "type": "skillLevel" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "116159",
+      "type": "skill",
+      "attributes": {
+        "description": "Application approvalonly",
+        "name": "Dominos Regular",
+        "state": "Active"
+      },
+      "relationships": {
+        "levels": {
+          "data": [{ "id": "116159_1", "type": "skillLevel" }]
+        }
+      }
+    },
+    {
+      "id": "123799",
+      "type": "skill",
+      "attributes": { "name": "Solution", "state": "Active" },
+      "relationships": {
+        "levels": {
+          "data": [{ "id": "123799_1", "type": "skillLevel" }]
+        }
+      }
+    },
+    {
+      "id": "132754",
+      "type": "skill",
+      "attributes": { "name": "Alina's skill", "state": "Active" },
+      "relationships": {
+        "levels": {
+          "data": [{ "id": "132754_1", "type": "skillLevel" }]
+        }
+      }
+    },
+    {
+      "id": "239384",
+      "type": "skill",
+      "attributes": {
+        "description": "Lorem Ipsum",
+        "name": "Maryna skill",
+        "state": "Retired"
+      },
+      "relationships": {
+        "levels": {
+          "data": [
+            { "id": "239384_1", "type": "skillLevel" },
+            { "id": "239384_2", "type": "skillLevel" },
+            { "id": "239384_3", "type": "skillLevel" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "249496",
+      "type": "skill",
+      "attributes": { "name": "Alina 2", "state": "Active" },
+      "relationships": {
+        "levels": {
+          "data": [{ "id": "249496_1", "type": "skillLevel" }]
+        }
+      }
+    },
+    {
+      "id": "132754_1",
+      "type": "skillLevel",
+      "attributes": { "level": "1", "maxCredits": 1, "name": "Level 1" },
+      "relationships": {
+        "badge": { "data": { "id": "937533", "type": "badge" } },
+        "skill": { "data": { "id": "132754", "type": "skill" } }
+      }
+    },
+    {
+      "id": "22230_1",
+      "type": "skillLevel",
+      "attributes": { "level": "1", "maxCredits": 1, "name": "Level 1" },
+      "relationships": {
+        "skill": { "data": { "id": "22230", "type": "skill" } }
+      }
+    },
+    {
+      "id": "116157_1",
+      "type": "skillLevel",
+      "attributes": { "level": "1", "maxCredits": 70, "name": "Level 1" },
+      "relationships": {
+        "badge": { "data": { "id": "211320", "type": "badge" } },
+        "skill": { "data": { "id": "116157", "type": "skill" } }
+      }
+    },
+    {
+      "id": "249496_1",
+      "type": "skillLevel",
+      "attributes": { "level": "1", "maxCredits": 1, "name": "Level 1" },
+      "relationships": {
+        "badge": { "data": { "id": "211319", "type": "badge" } },
+        "skill": { "data": { "id": "249496", "type": "skill" } }
+      }
+    },
+    {
+      "id": "113605_1",
+      "type": "skillLevel",
+      "attributes": { "level": "1", "maxCredits": 10, "name": "Level 1" },
+      "relationships": {
+        "skill": { "data": { "id": "113605", "type": "skill" } }
+      }
+    },
+    {
+      "id": "239384_1",
+      "type": "skillLevel",
+      "attributes": { "level": "1", "maxCredits": 10, "name": "Level 1" },
+      "relationships": {
+        "skill": { "data": { "id": "239384", "type": "skill" } }
+      }
+    },
+    {
+      "id": "113169_1",
+      "type": "skillLevel",
+      "attributes": { "level": "1", "maxCredits": 1, "name": "Level 1" },
+      "relationships": {
+        "badge": { "data": { "id": "211317", "type": "badge" } },
+        "skill": { "data": { "id": "113169", "type": "skill" } }
+      }
+    },
+    {
+      "id": "116159_1",
+      "type": "skillLevel",
+      "attributes": { "level": "1", "maxCredits": 71, "name": "Level 1" },
+      "relationships": {
+        "skill": { "data": { "id": "116159", "type": "skill" } }
+      }
+    },
+    {
+      "id": "123799_1",
+      "type": "skillLevel",
+      "attributes": { "level": "1", "maxCredits": 10, "name": "Level 1" },
+      "relationships": {
+        "badge": { "data": { "id": "211314", "type": "badge" } },
+        "skill": { "data": { "id": "123799", "type": "skill" } }
+      }
+    }
+  ]
+}

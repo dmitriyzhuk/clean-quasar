@@ -1,0 +1,642 @@
+{
+  "links": {
+    "self": "https://captivateprime.adobe.com/primeapi/v2/learningObjects?page[limit]=10",
+    "next": "https://captivateprime.adobe.com/primeapi/v2/learningObjects?page[limit]=10&page[cursor]=eyJjb3Vyc2UiOjEwfQ=="
+  },
+  "data": [
+    {
+      "id": "course:2368140",
+      "type": "learningObject",
+      "attributes": {
+        "authorNames": ["Anna CoSo"],
+        "dateCreated": "2021-07-27T13:45:46.000Z",
+        "datePublished": "2021-07-27T13:46:30.000Z",
+        "dateUpdated": "2021-07-27T13:46:30.000Z",
+        "duration": 2520,
+        "effectiveModifiedDate": "2021-07-27T13:46:30.000Z",
+        "effectivenessIndex": 0,
+        "enrollmentType": "Self Enroll",
+        "hasOptionalLoResources": false,
+        "isExternal": false,
+        "isMqaEnabled": false,
+        "isPrerequisiteEnforced": false,
+        "isSubLoOrderEnforced": false,
+        "loFormat": "Self Paced",
+        "loType": "course",
+        "moduleResetEnabled": false,
+        "state": "Published",
+        "unenrollmentAllowed": false,
+        "localizedMetadata": [
+          {
+            "description": "  Demo SM Intermediate 5",
+            "locale": "en-US",
+            "name": "   Demo SM Intermediate 5",
+            "overview": "",
+            "richTextOverview": ""
+          }
+        ],
+        "rating": {
+          "averageRating": 0,
+          "ratingsCount": 0
+        }
+      },
+      "relationships": {
+        "authors": {
+          "data": [
+            {
+              "id": "7080579",
+              "type": "user"
+            }
+          ]
+        },
+        "instances": {
+          "data": [
+            {
+              "id": "course:2368140_2772221",
+              "type": "learningObjectInstance"
+            }
+          ]
+        },
+        "skills": {
+          "data": [
+            {
+              "id": "course:2368140_123799",
+              "type": "learningObjectSkill"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "course:2368169",
+      "type": "learningObject",
+      "attributes": {
+        "authorNames": ["Anna CoSo"],
+        "dateCreated": "2021-07-27T14:08:35.000Z",
+        "datePublished": "2021-07-27T14:09:12.000Z",
+        "dateUpdated": "2021-09-10T13:09:53.000Z",
+        "duration": 2127,
+        "effectiveModifiedDate": "2021-09-10T13:09:53.000Z",
+        "effectivenessIndex": 0,
+        "enrollmentType": "Self Enroll",
+        "hasOptionalLoResources": false,
+        "isExternal": false,
+        "isMqaEnabled": false,
+        "isPrerequisiteEnforced": false,
+        "isSubLoOrderEnforced": false,
+        "loFormat": "Self Paced",
+        "loType": "course",
+        "moduleResetEnabled": false,
+        "state": "Published",
+        "unenrollmentAllowed": false,
+        "localizedMetadata": [
+          {
+            "description": "  Demo EDU Intermediate 4",
+            "locale": "en-US",
+            "name": "  Demo EDU Intermediate 4",
+            "overview": "",
+            "richTextOverview": ""
+          }
+        ],
+        "rating": {
+          "averageRating": 0,
+          "ratingsCount": 0
+        }
+      },
+      "relationships": {
+        "authors": {
+          "data": [
+            {
+              "id": "7080579",
+              "type": "user"
+            }
+          ]
+        },
+        "instances": {
+          "data": [
+            {
+              "id": "course:2368169_2772252",
+              "type": "learningObjectInstance"
+            }
+          ]
+        },
+        "skills": {
+          "data": [
+            {
+              "id": "course:2368169_123799",
+              "type": "learningObjectSkill"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "course:2368138",
+      "type": "learningObject",
+      "attributes": {
+        "authorNames": ["Anna CoSo"],
+        "dateCreated": "2021-07-27T13:42:42.000Z",
+        "datePublished": "2021-07-27T13:43:29.000Z",
+        "dateUpdated": "2021-07-27T13:43:29.000Z",
+        "duration": 1800,
+        "effectiveModifiedDate": "2021-07-27T13:43:29.000Z",
+        "effectivenessIndex": 0,
+        "enrollmentType": "Self Enroll",
+        "hasOptionalLoResources": false,
+        "isExternal": false,
+        "isMqaEnabled": false,
+        "isPrerequisiteEnforced": false,
+        "isSubLoOrderEnforced": false,
+        "loFormat": "Self Paced",
+        "loType": "course",
+        "moduleResetEnabled": false,
+        "state": "Published",
+        "unenrollmentAllowed": false,
+        "localizedMetadata": [
+          {
+            "description": "Demo SM Beginner 3",
+            "locale": "en-US",
+            "name": "  Demo SM Beginner 3",
+            "overview": "",
+            "richTextOverview": ""
+          }
+        ],
+        "rating": {
+          "averageRating": 0,
+          "ratingsCount": 0
+        }
+      },
+      "relationships": {
+        "authors": {
+          "data": [
+            {
+              "id": "7080579",
+              "type": "user"
+            }
+          ]
+        },
+        "instances": {
+          "data": [
+            {
+              "id": "course:2368138_2772218",
+              "type": "learningObjectInstance"
+            }
+          ]
+        },
+        "skills": {
+          "data": [
+            {
+              "id": "course:2368138_123799",
+              "type": "learningObjectSkill"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "course:2368139",
+      "type": "learningObject",
+      "attributes": {
+        "authorNames": ["Anna CoSo"],
+        "dateCreated": "2021-07-27T13:43:34.000Z",
+        "datePublished": "2021-07-27T13:45:42.000Z",
+        "dateUpdated": "2021-08-05T13:26:37.000Z",
+        "duration": 2127,
+        "effectiveModifiedDate": "2021-08-05T13:26:37.000Z",
+        "effectivenessIndex": 0,
+        "enrollmentType": "Self Enroll",
+        "hasOptionalLoResources": false,
+        "isExternal": false,
+        "isMqaEnabled": false,
+        "isPrerequisiteEnforced": false,
+        "isSubLoOrderEnforced": false,
+        "loFormat": "Self Paced",
+        "loType": "course",
+        "moduleResetEnabled": false,
+        "state": "Published",
+        "tags": [
+          "new destinations",
+          "sales collateral",
+          "virtual vacations",
+          "QA",
+          "01 Highlighted",
+          "Professional Development"
+        ],
+        "unenrollmentAllowed": false,
+        "localizedMetadata": [
+          {
+            "description": "  Demo SM Intermediate 4",
+            "locale": "en-US",
+            "name": "  Demo SM Intermediate 4",
+            "overview": "",
+            "richTextOverview": ""
+          }
+        ],
+        "rating": {
+          "averageRating": 0,
+          "ratingsCount": 0
+        }
+      },
+      "relationships": {
+        "authors": {
+          "data": [
+            {
+              "id": "7080579",
+              "type": "user"
+            }
+          ]
+        },
+        "instances": {
+          "data": [
+            {
+              "id": "course:2368139_2772219",
+              "type": "learningObjectInstance"
+            }
+          ]
+        },
+        "skills": {
+          "data": [
+            {
+              "id": "course:2368139_123799",
+              "type": "learningObjectSkill"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "course:2368141",
+      "type": "learningObject",
+      "attributes": {
+        "authorNames": ["Anna CoSo"],
+        "dateCreated": "2021-07-27T13:46:35.000Z",
+        "datePublished": "2021-07-27T13:47:33.000Z",
+        "dateUpdated": "2021-07-27T13:47:33.000Z",
+        "duration": 5997,
+        "effectiveModifiedDate": "2021-07-27T13:47:33.000Z",
+        "effectivenessIndex": 0,
+        "enrollmentType": "Self Enroll",
+        "hasOptionalLoResources": false,
+        "isExternal": false,
+        "isMqaEnabled": false,
+        "isPrerequisiteEnforced": false,
+        "isSubLoOrderEnforced": false,
+        "loFormat": "Self Paced",
+        "loType": "course",
+        "moduleResetEnabled": false,
+        "state": "Published",
+        "unenrollmentAllowed": false,
+        "localizedMetadata": [
+          {
+            "description": "  Demo SM Intermediate 6",
+            "locale": "en-US",
+            "name": "  Demo SM Intermediate 6",
+            "overview": "",
+            "richTextOverview": ""
+          }
+        ],
+        "rating": {
+          "averageRating": 0,
+          "ratingsCount": 0
+        }
+      },
+      "relationships": {
+        "authors": {
+          "data": [
+            {
+              "id": "7080579",
+              "type": "user"
+            }
+          ]
+        },
+        "instances": {
+          "data": [
+            {
+              "id": "course:2368141_2772222",
+              "type": "learningObjectInstance"
+            }
+          ]
+        },
+        "skills": {
+          "data": [
+            {
+              "id": "course:2368141_123799",
+              "type": "learningObjectSkill"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "course:2884781",
+      "type": "learningObject",
+      "attributes": {
+        "authorNames": ["Maryna Lebiedieva"],
+        "dateCreated": "2021-10-08T13:46:04.000Z",
+        "datePublished": "2021-10-08T13:46:23.000Z",
+        "dateUpdated": "2021-10-08T14:07:06.000Z",
+        "duration": 518877,
+        "effectiveModifiedDate": "2021-10-08T14:07:06.000Z",
+        "effectivenessIndex": 0,
+        "enrollmentType": "Self Enroll",
+        "hasOptionalLoResources": false,
+        "isExternal": false,
+        "isMqaEnabled": false,
+        "isPrerequisiteEnforced": false,
+        "isSubLoOrderEnforced": false,
+        "loFormat": "Self Paced",
+        "loType": "course",
+        "moduleResetEnabled": false,
+        "state": "Expired",
+        "unenrollmentAllowed": true,
+        "localizedMetadata": [
+          {
+            "description": "",
+            "locale": "en-US",
+            "name": " Course for LP 2"
+          }
+        ],
+        "rating": {
+          "averageRating": 0,
+          "ratingsCount": 0
+        }
+      },
+      "relationships": {
+        "authors": {
+          "data": [
+            {
+              "id": "13932415",
+              "type": "user"
+            }
+          ]
+        },
+        "instances": {
+          "data": [
+            {
+              "id": "course:2884781_3310348",
+              "type": "learningObjectInstance"
+            }
+          ]
+        },
+        "skills": {
+          "data": [
+            {
+              "id": "course:2884781_116159",
+              "type": "learningObjectSkill"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "course:2884782",
+      "type": "learningObject",
+      "attributes": {
+        "authorNames": ["Maryna Lebiedieva"],
+        "dateCreated": "2021-10-08T13:46:41.000Z",
+        "datePublished": "2021-10-08T13:47:14.000Z",
+        "dateUpdated": "2021-10-08T14:07:01.000Z",
+        "duration": 520677,
+        "effectiveModifiedDate": "2021-10-08T14:07:01.000Z",
+        "effectivenessIndex": 0,
+        "enrollmentType": "Self Enroll",
+        "hasOptionalLoResources": false,
+        "isExternal": false,
+        "isMqaEnabled": false,
+        "isPrerequisiteEnforced": false,
+        "isSubLoOrderEnforced": true,
+        "loFormat": "Self Paced",
+        "loType": "course",
+        "moduleResetEnabled": false,
+        "state": "Expired",
+        "unenrollmentAllowed": true,
+        "localizedMetadata": [
+          {
+            "description": "",
+            "locale": "en-US",
+            "name": " Course for LP 3"
+          }
+        ],
+        "rating": {
+          "averageRating": 0,
+          "ratingsCount": 0
+        }
+      },
+      "relationships": {
+        "authors": {
+          "data": [
+            {
+              "id": "13932415",
+              "type": "user"
+            }
+          ]
+        },
+        "instances": {
+          "data": [
+            {
+              "id": "course:2884782_3310349",
+              "type": "learningObjectInstance"
+            }
+          ]
+        },
+        "skills": {
+          "data": [
+            {
+              "id": "course:2884782_116159",
+              "type": "learningObjectSkill"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "course:2368172",
+      "type": "learningObject",
+      "attributes": {
+        "authorNames": ["Anna CoSo"],
+        "dateCreated": "2021-07-27T14:10:34.000Z",
+        "datePublished": "2021-07-27T14:11:01.000Z",
+        "dateUpdated": "2021-07-27T14:11:01.000Z",
+        "duration": 3840,
+        "effectiveModifiedDate": "2021-07-27T14:11:01.000Z",
+        "effectivenessIndex": 0,
+        "enrollmentType": "Self Enroll",
+        "hasOptionalLoResources": false,
+        "isExternal": false,
+        "isMqaEnabled": false,
+        "isPrerequisiteEnforced": false,
+        "isSubLoOrderEnforced": false,
+        "loFormat": "Self Paced",
+        "loType": "course",
+        "moduleResetEnabled": false,
+        "state": "Published",
+        "unenrollmentAllowed": false,
+        "localizedMetadata": [
+          {
+            "description": " Demo  EDU  Advanced 7",
+            "locale": "en-US",
+            "name": " Demo  EDU  Advanced 7 ",
+            "overview": "",
+            "richTextOverview": ""
+          }
+        ],
+        "rating": {
+          "averageRating": 0,
+          "ratingsCount": 0
+        }
+      },
+      "relationships": {
+        "authors": {
+          "data": [
+            {
+              "id": "7080579",
+              "type": "user"
+            }
+          ]
+        },
+        "instances": {
+          "data": [
+            {
+              "id": "course:2368172_2772255",
+              "type": "learningObjectInstance"
+            }
+          ]
+        },
+        "skills": {
+          "data": [
+            {
+              "id": "course:2368172_123799",
+              "type": "learningObjectSkill"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "course:2368173",
+      "type": "learningObject",
+      "attributes": {
+        "authorNames": ["Anna CoSo"],
+        "dateCreated": "2021-07-27T14:11:13.000Z",
+        "datePublished": "2021-07-27T14:11:31.000Z",
+        "dateUpdated": "2021-07-27T14:11:31.000Z",
+        "duration": 1800,
+        "effectiveModifiedDate": "2021-07-27T14:11:31.000Z",
+        "effectivenessIndex": 0,
+        "enrollmentType": "Self Enroll",
+        "hasOptionalLoResources": false,
+        "isExternal": false,
+        "isMqaEnabled": false,
+        "isPrerequisiteEnforced": false,
+        "isSubLoOrderEnforced": true,
+        "loFormat": "Self Paced",
+        "loType": "course",
+        "moduleResetEnabled": false,
+        "state": "Published",
+        "unenrollmentAllowed": false,
+        "localizedMetadata": [
+          {
+            "description": " Demo  EDU  Advanced 8 ",
+            "locale": "en-US",
+            "name": " Demo  EDU  Advanced 8",
+            "overview": "",
+            "richTextOverview": ""
+          }
+        ],
+        "rating": {
+          "averageRating": 0,
+          "ratingsCount": 0
+        }
+      },
+      "relationships": {
+        "authors": {
+          "data": [
+            {
+              "id": "7080579",
+              "type": "user"
+            }
+          ]
+        },
+        "instances": {
+          "data": [
+            {
+              "id": "course:2368173_2772256",
+              "type": "learningObjectInstance"
+            }
+          ]
+        },
+        "skills": {
+          "data": [
+            {
+              "id": "course:2368173_123799",
+              "type": "learningObjectSkill"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "course:2368174",
+      "type": "learningObject",
+      "attributes": {
+        "authorNames": ["Anna CoSo"],
+        "dateCreated": "2021-07-27T14:11:56.000Z",
+        "datePublished": "2021-09-03T14:33:40.000Z",
+        "dateUpdated": "2021-09-03T14:33:40.000Z",
+        "duration": 2100,
+        "effectiveModifiedDate": "2021-09-03T14:33:40.000Z",
+        "effectivenessIndex": 0,
+        "enrollmentType": "Self Enroll",
+        "hasOptionalLoResources": false,
+        "isExternal": false,
+        "isMqaEnabled": false,
+        "isPrerequisiteEnforced": false,
+        "isSubLoOrderEnforced": true,
+        "loFormat": "Self Paced",
+        "loType": "course",
+        "moduleResetEnabled": false,
+        "state": "Published",
+        "unenrollmentAllowed": false,
+        "localizedMetadata": [
+          {
+            "description": " Demo  EDU  Advanced 9",
+            "locale": "en-US",
+            "name": " Demo  EDU  Advanced 9",
+            "overview": "",
+            "richTextOverview": ""
+          }
+        ],
+        "rating": {
+          "averageRating": 0,
+          "ratingsCount": 0
+        }
+      },
+      "relationships": {
+        "authors": {
+          "data": [
+            {
+              "id": "7080579",
+              "type": "user"
+            }
+          ]
+        },
+        "instances": {
+          "data": [
+            {
+              "id": "course:2368174_2772257",
+              "type": "learningObjectInstance"
+            }
+          ]
+        },
+        "skills": {
+          "data": [
+            {
+              "id": "course:2368174_123799",
+              "type": "learningObjectSkill"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,11 +1,14 @@
 export interface IAuthRepository {
-  init();
-  authenticate(): Promise<IAuthData | undefined>;
+  init(): void;
+  authenticate(): void;
   refreshToken(token: string): Promise<IAuthData | undefined>;
   logout(): void;
   getAuth(): IAuthData | undefined;
 }
-
+export interface IAuthMobile {
+  authenticate(authLink: string): void;
+  logout(logoutLink: string): void;
+}
 export interface IAuthResponse<T> {
   data?: T;
   isSuccess?: boolean;

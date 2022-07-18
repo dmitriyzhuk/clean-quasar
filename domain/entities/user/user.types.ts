@@ -6,10 +6,19 @@ export interface IUser extends IUserData {
 }
 
 export interface IUserData {
-  id?: string;
-  firstname: string;
-  lastname: string;
-  age: number;
+  id: string;
+  name: string;
+  title: string;
+  image: string;
+  email: string;
+  alias: string;
+  pointsEarned: number;
+  uiLanguage: string | undefined;
+  contentLanguage: string | undefined;
+  timezone: string | undefined;
+  roles: string[];
+  role: string;
+  profile: string;
 }
 
 export type IUserGroup = IUserGroupData;

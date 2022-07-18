@@ -10,8 +10,8 @@
 
 const { configure } = require('quasar/wrappers');
 const path = require('path');
-// import config from './setup';
-// console.log(config);
+const config = require('./setup');
+
 module.exports = configure(function (/* ctx */) {
   return {
     eslint: {
@@ -29,7 +29,7 @@ module.exports = configure(function (/* ctx */) {
     // app boot file (/src/boot)
     // --> boot files are part of "main.js"
     // https://v2.quasar.dev/quasar-cli-vite/boot-files
-    boot: ['i18n', 'axios'],
+    boot: ['i18n', 'setup'],
 
     // https://v2.quasar.dev/quasar-cli-vite/quasar-config-js#css
     css: ['app.scss'],
@@ -71,7 +71,7 @@ module.exports = configure(function (/* ctx */) {
       // polyfillModulePreload: true,
       // distDir
 
-      // env: config,
+      env: config,
 
       alias: {
         domain: path.resolve(__dirname, './domain'),
@@ -99,6 +99,7 @@ module.exports = configure(function (/* ctx */) {
     // Full list of options: https://v2.quasar.dev/quasar-cli-vite/quasar-config-js#devServer
     devServer: {
       // https: true
+      port: 8080,
       open: true, // opens browser window automatically
     },
 

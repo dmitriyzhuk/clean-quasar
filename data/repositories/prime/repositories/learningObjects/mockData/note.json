@@ -1,0 +1,20 @@
+{
+  "links": {
+    "self": "https://captivateprime.adobe.com/primeapi/v2/learningObjects/course:2832047/note"
+  },
+  "data": [
+    {
+      "id": "286030",
+      "type": "note",
+      "attributes": { "marker": "3.576472", "text": "new note" },
+      "relationships": {
+        "loResource": {
+          "data": {
+            "id": "course:2832047_3256486_7892463_0",
+            "type": "learningObjectResource"
+          }
+        }
+      }
+    }
+  ]
+}
